@@ -1,0 +1,4 @@
+9328c7196e982dfaac98a8157a883b04  data/doi_10.5063_AA_nceas.347.3-METADATA.pdf
+35d7dc430833fb25a6179be2e3fa74b3  data/resourceMap_nceas.347.3-RESOURCE.rdf
+3f61eddc983a97488e8df091a0d20eca  data/doi_10.5063_AA_nceasadmin.910.2-np-analysis-dataset-out-for-datasharing.txt.data
+89c15886c48d84666ad59645a5488a68  data/doi_10.5063_AA_nceas.347.3-METADATA.xml

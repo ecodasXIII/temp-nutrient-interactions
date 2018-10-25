@@ -1,0 +1,641 @@
+<?xml version="1.0"?><eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.0.1" xmlns:stmml="http://www.xml-cml.org/schema/stmml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="eml://ecoinformatics.org/dataset-2.0.1" packageId="nceas.347.3" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.1 eml.xsd"> <dataset scope="document"> <alternateIdentifier>ELSIE.NP</alternateIdentifier>
+ <title>Global analysis of nitrogen and phosphorus limitation</title>
+ <creator scope="document"> <organizationName>NCEAS 10022: Shurin: Comparing trophic structure across ecosystems</organizationName>
+ </creator>
+ <creator scope="document"> <organizationName>NCEAS 11981: Shurin: Comparing trophic structure across ecosystems (Extended)</organizationName>
+ </creator>
+ <creator scope="document"> <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ </creator>
+ <creator scope="document"> <individualName> <givenName>James</givenName>
+ <surName>Elser</surName>
+ </individualName>
+ <organizationName>Arizona State University</organizationName>
+ <address scope="document"> <deliveryPoint>School of Life Sciences</deliveryPoint>
+ <city>Tempe</city>
+ <administrativeArea>Arizona</administrativeArea>
+ <postalCode>85287-4501</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(480)965-9747</phone>
+ <phone phonetype="Fax">(480)965-2519</phone>
+ <electronicMailAddress>j.elser@asu.edu</electronicMailAddress>
+ </creator>
+ <metadataProvider scope="document"> <individualName> <givenName>Daniel</givenName>
+ <surName>Gruner</surName>
+ </individualName>
+ </metadataProvider>
+ <associatedParty scope="document"> <individualName> <givenName>Daniel</givenName>
+ <surName>Gruner</surName>
+ </individualName>
+ <role>Co-owner</role>
+ </associatedParty>
+ <associatedParty scope="document"> <individualName> <givenName>Matt</givenName>
+ <surName>Bracken</surName>
+ </individualName>
+ <role>Co-owner</role>
+ </associatedParty>
+ <associatedParty scope="document"> <individualName> <givenName>Elsa</givenName>
+ <surName>Cleland</surName>
+ </individualName>
+ <role>Co-owner</role>
+ </associatedParty>
+ <associatedParty scope="document"> <individualName> <givenName>Stan</givenName>
+ <surName>Harpole</surName>
+ </individualName>
+ <role>Co-owner</role>
+ </associatedParty>
+ <associatedParty scope="document"> <individualName> <givenName>Helmut</givenName>
+ <surName>Hillebrand</surName>
+ </individualName>
+ <role>Co-owner</role>
+ </associatedParty>
+ <associatedParty scope="document"> <individualName> <givenName>Jacqueline</givenName>
+ <surName>Ngai</surName>
+ </individualName>
+ <role>Co-owner</role>
+ </associatedParty>
+ <associatedParty scope="document"> <individualName> <givenName>Eric</givenName>
+ <surName>Seabloom</surName>
+ </individualName>
+ <role>Co-owner</role>
+ </associatedParty>
+ <associatedParty scope="document"> <individualName> <givenName>Jonathan</givenName>
+ <surName>Shurin</surName>
+ </individualName>
+ <role>Co-owner</role>
+ </associatedParty>
+ <associatedParty scope="document"> <individualName> <givenName>Jennifer</givenName>
+ <surName>Smith</surName>
+ </individualName>
+ <role>Co-owner</role>
+ </associatedParty>
+ <pubDate>2007-10-01</pubDate>
+ <abstract> <para>The cycles of the key nutrient elements nitrogen (N) and phosphorus (P) have been massively altered by anthropogenic activities. Thus, it is essential to understand how photosynthetic production across diverse ecosystems is, or is not, limited by N and P. Via a large-scale meta-analysis of experimental enrichments, we show that P limitation is equally strong across these major habitats and that N and P limitation are equivalent within both terrestrial and freshwater systems. Furthermore, simultaneous N and P enrichment produces strongly positive synergistic responses in all three environments. Thus, contrary to some prevailing paradigms, freshwater, marine and terrestrial ecosystems are surprisingly similar in terms of N and P limitation.</para>
+ </abstract>
+ <keywordSet> <keyword>nutrient resources</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword>nitrogen</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword>phophorus</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword>fertilization</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword>plant community</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword>bottom-up</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword>primary producer biomass</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword>experimental manipulation</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword>marine, terrestrial, freshwater ecosystems</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <additionalInfo> <para>Elser, J. J., M. E. S. Bracken, E. E. Cleland, D. S. Gruner, W. S. Harpole, H. Hillebrand, J. T. Ngai, E. W. Seabloom, J. B. Shurin, and J. E. Smith. Global analysis of nitrogen and phosphorus limitation of primary producers in freshwater, marine, and terrestrial ecosystems. Ecology Letters, in press.</para>
+ </additionalInfo>
+ <intellectualRights> <para>Obtain permission from data set owner(s)</para>
+ </intellectualRights>
+ <distribution scope="document"> <offline> <mediumName>digital</mediumName>
+ </offline>
+ </distribution>
+ <coverage scope="document"> <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>2005-04-01</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2007-11-01</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Meta-analysis of global data from seven continents.</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-180.0000</westBoundingCoordinate>
+ <eastBoundingCoordinate>180.0000</eastBoundingCoordinate>
+ <northBoundingCoordinate>90.0000</northBoundingCoordinate>
+ <southBoundingCoordinate>-90.0000</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact scope="document"> <individualName> <givenName>James</givenName>
+ <surName>Elser</surName>
+ </individualName>
+ <organizationName>Arizona State University</organizationName>
+ <address scope="document"> <deliveryPoint>School of Life Sciences</deliveryPoint>
+ <city>Tempe</city>
+ <administrativeArea>Arizona</administrativeArea>
+ <postalCode>85287-4501</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(480)965-9747</phone>
+ <phone phonetype="Fax">(480)965-2519</phone>
+ <electronicMailAddress>j.elser@asu.edu</electronicMailAddress>
+ </contact>
+ <methods> <methodStep> <description> <section> <title>Global analysis of nitrogen and phosphorus limitation: methods</title>
+ <para>Relevant studies were identified by searching titles and abstracts of publications returned from searches on ISI Web of Science using combinations of key words such as nitrogen, phosphorus, nutrient, enrichment, fertilization and bioassay. We also included studies summarized in previously published syntheses (DiTommaso &amp; Aarssen 1989; Elser et al. 1990; Tanner et al. 1998; Downing et al. 1999b) and searched all subsequent papers citing those syntheses. For studies that included additional manipulations (such as grazer exclusion), we included only treatment combinations using the unmanipulated controls (grazers at natural densities). Studies including such secondary manipulations were a small subset of our data. Studies were included if they involved (minimally) independent manipulations of both N and P availability or (ideally) full factorial manipulations of N and P. (Some studies involved both N and P enrichment but did not apply, or report data from, both treatments in all individual experiments. Thus, the numbers of observations for  N and  P responses are not necessarily identical.) By including only studies that manipulated both N and P, we minimized potential biases induced by investigator focus on particular limiting nutrients thought to be most important in particular kinds of ecosystems. Furthermore, we analysed the data in two ways, one in which all data were included and another in which only data from fully factorial experiments were included. The overall patterns were the same for the two approaches. Thus, we present the results for the more inclusive data set in order to increase the scope of habitats and experimental approaches encompassed.</para>
+ <para>We included only studies that reported mean community-level biomass or production responses of autotrophs to nutrient enrichment. Single-species responses were eliminated unless drawn from a mono-dominant community in the judgment of the original authors or, if several species from a community were individually assayed for N and P response, an average across all species was taken for a given study. The preferred metric was biomass per unit area (terrestrial, wetland, benthic) or volume (pelagic). We also accepted proxy variables that are known to be correlated with standing biomass, such as chlorophyll concentration (most common in phytoplankton studies), ash-free dry mass, carbon mass, biovolume, percent cover and primary production. Many studies in forests and other systems dominated by woody plants and a small percent of marine benthos studies reported incremental rates (change in height or radius) rather than standing biomass. Inclusion of these studies did not qualitatively change the results of our analyses, and so we present results from the larger inclusive data set. Studies involving organism counts were excluded because of the orders-of-magnitude discrepancies in organism size among systems, and the expected inverse relation between organism size and abundance (Cohen et al. 1993; Cyr et al. 1997).</para>
+ <para>We defined a study as a temporally and spatially distinct experiment with internally consistent controls. Multiple studies could be reported from within one publication, for instance, if the same experimental treatments were performed in multiple streams with differing water quality or for water samples obtained from different stations along an oceanographic transect. When multiple measures were reported over time in a single experiment, we generally used the last temporal sample to avoid phases of transient dynamics in order to capture measures closer to when the system approached a potential equilibrium with the added nutrients. Exceptions were made to standardize duration within systems or to avoid excessively long incubations (mainly for bioassays with freshwater or marine phytoplankton). Data for multiple sampling dates in extended studies were averaged if phenological changes necessitated the use of mean values over all samples instead of the final value in order to be more ecologically relevant. In these cases, we used the most robust values by deferring to the working knowledge and intuition of the original authors.</para>
+ <para>We used the ln-transformed response ratio as our primary effect size metric RRX = ln (Eâ C), where E is the measured value of the response variable in enrichment treatment X (N or P or N   P) and C is its value in the unenriched control treatment. RR is one of the most frequently used effect metric in ecological meta-analysis (Hedges et al. 1999; Lajeunesse &amp; Forbes 2003). Unlike Hedge s d, the ln-response ratio does not require a measure of sample variability. Moreover, in comparisons across systems where response variables and experimental designs can differ considerably, the analysis of change relative to the control is more meaningful than standardized absolute differences between means.</para>
+ <para>For each study, we used a unique study identifier linked to the citation of the publication and obtained the following information wherever possible. We categorized the system as marine, terrestrial, or freshwater and the stratum within each system by assigning aquatic studies to either pelagic or benthic subcategories and the terrestrial to either aboveground or belowground. Some studies in wetlands and salt marshes were difficult to categorize. For these, we used the operational approach that studies addressing submersed or floating macrophytes, or microalgae growing on them, were classified as aquatic (marine or freshwater), whereas studies on above-water rooted plants were termed terrestrial. For studies involving submersed macrophytes, when nutrients were added to the sediments, only responses of the macrophytes were included. When nutrients were added to the overlying water, only responses of the epiphytes were included. Finally, we also created a standardized set for habitat subcategories consisting of: grassland â meadow; tundra; forest â shrubland; wetland; stream; lake pelagic; lake benthos; marine benthos (hard bottom), marine benthos (soft bottom); or marine pelagic. We also entered supporting data about incubation conditions and the local environment, including concentrations of available nutrients (nitrate, ammonium, soluble reactive phosphorus).</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>uid=nceasadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>uid=dsgruner,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataTable id="1213916811065" scope="document"> <entityName>np-analysis-dataset-out-for-datasharing.txt</entityName>
+ <entityDescription>np analysis</entityDescription>
+ <physical id="1213916809509" scope="document"> <objectName>np-analysis-dataset-out-for-datasharing.txt</objectName>
+ <size unit="byte">348062</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/nceasadmin.910.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1213916811066" scope="document"> <attributeName>id_study</attributeName>
+ <attributeDefinition>Initials of recorder &amp; number (e.g., HLH001)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>id</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811067" scope="document"> <attributeName>system</attributeName>
+ <attributeDefinition>categories: marine, terrestrial, freshwater</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>system</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811068" scope="document"> <attributeName>strata</attributeName>
+ <attributeDefinition>categories: pelagic, benthic, aboveground, belowground</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>strata</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811069" scope="document"> <attributeName>habitat</attributeName>
+ <attributeDefinition>agricultural; forest; herbaceous; tundra; shrubland; wetland; stream; lake; coral reef; coastal hard bottom; coastal soft bottom; oceanic (e.g. shrubland=savannah, categories: succesional woodland, desert scrub, oldfields {sometimes}) (e.g. herbaceous=grasslands,meadows, oldfields {sometimes}, rangeland)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>habitat</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811070" scope="document"> <attributeName>cat</attributeName>
+ <attributeDefinition>categories: marine(BENTH HARD, BENTH SOFT, PELAGIC); freshwater(LAKE BENTHIC, LAKE PELAGIC,STREAM); terrestrial(HERBACEOUS,WETLAND,WOODY,TUNDRA)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>categoreis</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811071" scope="document"> <attributeName>tax_resp_class</attributeName>
+ <attributeDefinition>categories: BIOMASS (standing stock), BIORATE (growth rate or increment), BIOPROD (productivity)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>categories</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811072" scope="document"> <attributeName>l.n.c</attributeName>
+ <attributeDefinition>natural log response ratio effect size for nitrogen addition</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811073" scope="document"> <attributeName>l.p.c</attributeName>
+ <attributeDefinition>natural log response ratio effect size for phosphorus addition</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811074" scope="document"> <attributeName>l.int.c</attributeName>
+ <attributeDefinition>natural log response ratio effect size for nitrogen + phosphorus addition</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811075" scope="document"> <attributeName>Date_entry</attributeName>
+ <attributeDefinition>Date data are enterred (eg, 20050930 - YYYYMMDD)</attributeDefinition>
+ <measurementScale> <datetime> <formatString>YYYYMMDD</formatString>
+ <dateTimePrecision>1 day</dateTimePrecision>
+ </datetime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811076" scope="document"> <attributeName>author</attributeName>
+ <attributeDefinition>Authors (last names; two or more use &quot;&amp;&amp;&quot; or &quot;et al&quot;</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>authors</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811077" scope="document"> <attributeName>pubyear</attributeName>
+ <attributeDefinition>Publication year</attributeDefinition>
+ <measurementScale> <datetime> <formatString>YYYY</formatString>
+ <dateTimePrecision>1 year</dateTimePrecision>
+ </datetime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811078" scope="document"> <attributeName>citation</attributeName>
+ <attributeDefinition>Journal name, volume, pages</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Journal name, volume, pages</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811079" scope="document"> <attributeName>publication</attributeName>
+ <attributeDefinition>Journal name - use existing syntax to enhance ability to search and sort</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>journal name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811080" scope="document"> <attributeName>pubvol</attributeName>
+ <attributeDefinition>Volume number of publication</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Volume number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811081" scope="document"> <attributeName>pages</attributeName>
+ <attributeDefinition>pages of article</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>page numbers</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811082" scope="document"> <attributeName>hab_descrip</attributeName>
+ <attributeDefinition>unique descriptor of habitat studied - e.g., rocky intertidal, swamp, rangeland, old field etc.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>description of habitat</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811083" scope="document"> <attributeName>location</attributeName>
+ <attributeDefinition>place name, country, site</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>location</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811084" scope="document"> <attributeName>latitud</attributeName>
+ <attributeDefinition>latitude from -90 (S) to +90 (N)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811085" scope="document"> <attributeName>longitud</attributeName>
+ <attributeDefinition>longitude from -180 (W) to +180 (E)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811086" scope="document"> <attributeName>elev</attributeName>
+ <attributeDefinition>Elevation (m) Depth below sea level is negative</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811087" scope="document"> <attributeName>n_avail</attributeName>
+ <attributeDefinition>Ambient concentration of available nitrogen (micromol g-1 for terrestrial micromol l-1 aquatic)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811088" scope="document"> <attributeName>n_total</attributeName>
+ <attributeDefinition>Total N concentration (micromol g-1 for terrestrial micromol l-1 aquatic)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811089" scope="document"> <attributeName>p_avail</attributeName>
+ <attributeDefinition>Total P concentration (micromol g-1 for terrestrial micromol l-1 aquatic)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811090" scope="document"> <attributeName>p_total</attributeName>
+ <attributeDefinition>Total P concentration (micromol g-1 for terrestrial micromol l-1 aquatic)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811091" scope="document"> <attributeName>c_total</attributeName>
+ <attributeDefinition>Total C concentration (micromol g-1 for terrestrial micromol l-1 aquatic)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811092" scope="document"> <attributeName>pH</attributeName>
+ <attributeDefinition>pH</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811093" scope="document"> <attributeName>light</attributeName>
+ <attributeDefinition>Mean daily irradiance (µmol photons m-2 s-1) [manipulated]</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811094" scope="document"> <attributeName>temp</attributeName>
+ <attributeDefinition>Mean temperature over experiment duration °C</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811095" scope="document"> <attributeName>precip</attributeName>
+ <attributeDefinition>Average annual rainfall, during experiment if possible (mm)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811096" scope="document"> <attributeName>npp</attributeName>
+ <attributeDefinition>Net primary production (g m-2 yr-1)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811097" scope="document"> <attributeName>npp_typ</attributeName>
+ <attributeDefinition>1=Total; 2=Aboveground; 3=Belowground</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>NA</code>
+ <definition>Not available</definition>
+ </codeDefinition>
+ <codeDefinition> <code>1</code>
+ <definition>Total</definition>
+ </codeDefinition>
+ <codeDefinition> <code>2</code>
+ <definition>Aboveground</definition>
+ </codeDefinition>
+ <codeDefinition> <code>3</code>
+ <definition>Belowground</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811098" scope="document"> <attributeName>ab</attributeName>
+ <attributeDefinition>Total autotroph measure (standing crop)   (g C m-2)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811099" scope="document"> <attributeName>ab_unit</attributeName>
+ <attributeDefinition>Max; min; mean; total</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>max or min or mean or total</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811100" scope="document"> <attributeName>study_typ</attributeName>
+ <attributeDefinition>Lab: field</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Lab or field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811101" scope="document"> <attributeName>cons_man</attributeName>
+ <attributeDefinition>Type of consumer manipulation: Exclosures; Enclosures (including most additions); Removal (e.g. pesticides, hand picking); Gradient (was Natural Variation); None; Multiple (if complex two or more of these)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>manipulation types</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811102" scope="document"> <attributeName>HA</attributeName>
+ <attributeDefinition>1; 0  - Herbivore:Autotroph ratio in rough classes at community level; 1 = H:A much less than 1; 2 = H:A close to 1 (if you have to think about it too much, it is probably this); 3 = H:A larger than 1</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811103" scope="document"> <attributeName>fert</attributeName>
+ <attributeDefinition>1; 0</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811104" scope="document"> <attributeName>fdchlg_man</attributeName>
+ <attributeDefinition>1; 2; 3 or 4 - highest level subject to manipulation (not measurement)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811105" scope="document"> <attributeName>num_nut_tmnt</attributeName>
+ <attributeDefinition>number of manipulated unique nutrient *main* factors (factorial of main tmnts does not count)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811106" scope="document"> <attributeName>num_nut</attributeName>
+ <attributeDefinition>total number of nutrients -- sum everything named ; osmocote =&quot;21&quot;</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811107" scope="document"> <attributeName>duration</attributeName>
+ <attributeDefinition>Duration of experiment in days</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811108" scope="document"> <attributeName>fert_area</attributeName>
+ <attributeDefinition>measurement area of the experimental unit : m² for fertilization manipulation</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>squareMeter</standardUnit>
+ </unit>
+ <precision>.000000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811109" scope="document"> <attributeName>cons_area</attributeName>
+ <attributeDefinition>Area of the experimental unit : m² for consumer manipulation</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>squareMeter</standardUnit>
+ </unit>
+ <precision>.000000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811110" scope="document"> <attributeName>vol</attributeName>
+ <attributeDefinition>Volume of the experimental unit : litre</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>liter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811111" scope="document"> <attributeName>fert_unit</attributeName>
+ <attributeDefinition>units of fertilization added</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>unit of measurement description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811112" scope="document"> <attributeName>p_rate</attributeName>
+ <attributeDefinition>rate of P addition</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811113" scope="document"> <attributeName>n_rate</attributeName>
+ <attributeDefinition>rate of N addition</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811114" scope="document"> <attributeName>meta_source</attributeName>
+ <attributeDefinition>Name of database or meta-analysis that provided source data (e.g., Helmut periphyton database)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Database name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1213916811115" scope="document"> <attributeName>note_study</attributeName>
+ <attributeDefinition>general description, notes, special conditions on study tagged with column name if relevant</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>notes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>1062</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </eml:eml>

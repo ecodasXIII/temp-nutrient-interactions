@@ -1,0 +1,4 @@
+doi:10.5063/AA/nceas.347.3 (pdf)	data/doi_10.5063_AA_nceas.347.3-METADATA.pdf
+resourceMap_nceas.347.3	data/resourceMap_nceas.347.3-RESOURCE.rdf
+doi:10.5063/AA/nceas.347.3	data/doi_10.5063_AA_nceas.347.3-METADATA.xml
+doi:10.5063/AA/nceasadmin.910.2	data/doi_10.5063_AA_nceasadmin.910.2-np-analysis-dataset-out-for-datasharing.txt.data

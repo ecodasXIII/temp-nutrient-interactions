@@ -1,0 +1,37 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:ore="http://www.openarchives.org/ore/terms/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:j.0="http://purl.org/spar/cito/" > 
+  <rdf:Description rdf:about="https://cn.dataone.org/cn/v1/resolve/doi:10.5063/AA/nceasadmin.910.2">
+    <ore:isAggregatedBy>https://cn.dataone.org/cn/v1/resolve/resourceMap_nceas.347.3#aggregation</ore:isAggregatedBy>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doi:10.5063/AA/nceasadmin.910.2</dcterms:identifier>
+    <j.0:isDocumentedBy rdf:resource="https://cn.dataone.org/cn/v1/resolve/doi:10.5063/AA/nceas.347.3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cn.dataone.org/cn/v1/resolve/resourceMap_nceas.347.3#aggregation">
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isDescribedBy rdf:resource="https://cn.dataone.org/cn/v1/resolve/resourceMap_nceas.347.3"/>
+    <dc:title>DataONE Aggregation</dc:title>
+    <ore:aggregates rdf:resource="https://cn.dataone.org/cn/v1/resolve/doi:10.5063/AA/nceas.347.3"/>
+    <ore:aggregates rdf:resource="https://cn.dataone.org/cn/v1/resolve/doi:10.5063/AA/nceasadmin.910.2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Java libclient</foaf:name>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cn.dataone.org/cn/v1/resolve/doi:10.5063/AA/nceas.347.3">
+    <ore:isAggregatedBy>https://cn.dataone.org/cn/v1/resolve/resourceMap_nceas.347.3#aggregation</ore:isAggregatedBy>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doi:10.5063/AA/nceas.347.3</dcterms:identifier>
+    <j.0:documents rdf:resource="https://cn.dataone.org/cn/v1/resolve/doi:10.5063/AA/nceasadmin.910.2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cn.dataone.org/cn/v1/resolve/resourceMap_nceas.347.3">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-06-22T22:51:59-0700</dcterms:modified>
+    <ore:describes rdf:resource="https://cn.dataone.org/cn/v1/resolve/resourceMap_nceas.347.3#aggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/ResourceMap"/>
+    <dc:creator rdf:nodeID="A0"/>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resourceMap_nceas.347.3</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>
