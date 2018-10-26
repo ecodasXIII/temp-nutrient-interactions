@@ -8,10 +8,19 @@ A repository related to the temperature-nutrient interactions working group
 
 ## Data overview
 
-Elser et al. 2007
+- Elser et al. 2007
 
 Notes on variables of interest (working)
 
 *System specs - system, strata, habitat, cat
 *Response vars - tax_resp_class, npp
 *Driver vars - temp, n_avail, n_total, p_avail, p_total, ab
+
+- Lewandowska et al.
+
+
+- Aloha HOT-DOGS
+
+* System specs - 
+* Response vars - 
+* Driver vars - 
