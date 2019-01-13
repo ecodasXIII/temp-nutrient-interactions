@@ -1,10 +1,12 @@
 ## 2) preliminary figures for exploration of data
 
+##Run script 1) clean_data before running this script
+
 ##Elser Plots
 #Temperature Range
 
 ggplot(TempData_Elser, aes(x = temp)) + geom_histogram(colour = 'black', fill = 'white')+
-    annotate('text', x = 1, y = 30,label = paste("n = ", nrow(subset(Tempdata_Elser, temp!="NA"))))+
+    annotate('text', x = 1, y = 30,label = paste("n = ", nrow(subset(TempData_Elser, temp!="NA"))))+
     ggtitle("Elser Temp")
 ggplot(TempData_Elser, aes(x = temp)) + geom_histogram(colour = 'black',fill = 'white') + facet_grid(cat ~ ., scales = 'free')+
     ggtitle("Elser Temp by Ecosystem")
@@ -45,8 +47,8 @@ ggplot(TempData_Elser, aes(x = p_avail)) + geom_histogram(colour = 'black', fill
 
 Elser_log_p_total = ggplotGrob(ggplot(TempData_Elser, aes(x = log10(p_total))) + geom_histogram(colour = 'black', fill = 'white'))
 ggplot(TempData_Elser, aes(x = p_total)) + geom_histogram(colour = 'black', fill = 'white') +
-  annotate('text', x = .1, y = 135, label = paste("n =",nrow(subset(TempData_Elser, p_total!="NA")))) +
-  annotation_custom(grob = Elser_log_p_total, xmin = 10, xmax = 20, ymin = 50, ymax = 135)+
+  annotate('text', x = .1, y = 45, label = paste("n =",nrow(subset(TempData_Elser, p_total!="NA")))) +
+  annotation_custom(grob = Elser_log_p_total, xmin = 10, xmax = 20, ymin = 20, ymax = 45)+
   ggtitle("Elser Total P")
 
 ##Beck Plots
@@ -60,15 +62,15 @@ ggplot(TempData_Beck, aes(x = Temp_C)) + geom_histogram(colour = 'black', fill =
 #Canopy % Range
 
 ggplot(TempData_Beck, aes(x = Canopy_Percent)) + geom_histogram(colour = 'black', fill = 'white')+
-  annotate('text', x = 1, y = 40,label = paste("n = ", nrow(subset(TempData_Beck, Canopy_Percent!="NA"))))+
+  annotate('text', x = 1, y = 15,label = paste("n = ", nrow(subset(TempData_Beck, Canopy_Percent!="NA"))))+
   ggtitle("Beck Canopy Percent")
 
 #DIN Range
 
 Beck_log_DIN = ggplotGrob(ggplot(TempData_Beck, aes(x = log10(DIN_ug_L))) + geom_histogram(colour = 'black', fill = 'white'))
 ggplot(TempData_Beck, aes(x = DIN_ug_L)) + geom_histogram(colour = 'black', fill = 'white') +
-  annotate('text', x = 1, y = 20, label = paste("n =", nrow(subset(TempData_Beck, DIN_ug_L!="NA")))) +
-  annotation_custom(grob = Beck_log_DIN, xmin = 600, xmax = 800, ymin = 10, ymax = 20)+
+  annotate('text', x = 1, y = 10, label = paste("n =", nrow(subset(TempData_Beck, DIN_ug_L!="NA")))) +
+  annotation_custom(grob = Beck_log_DIN, xmin = 500, xmax = 800, ymin = 5, ymax = 10)+
   ggtitle("Beck DIN")
 
 #TN Range
@@ -128,10 +130,12 @@ ggplot(subset(TempData_Vanni, N.form=="TN"), aes(x = N.excretion.rate..ug.N.ind.
   annotate('text', x = 0, y = 20,label = paste("n = ", nrow(subset(TempData_Vanni, N.form=="TN" &N.excretion.rate..ug.N.ind.h.!="NA"))))+
   ggtitle("Vanni TN Excretion Rate")
 
-#Excretion N:P
+#Excretion N:P (If N excretion or P excretion was NA, value was calculated as "1", 
+#so only included values >1)
 
-ggplot(TempData_Vanni, aes(x = Excreted.N.P..molar.)) + geom_histogram(colour = 'black', fill = 'white', bins=50)+
-  annotate('text', x = 1000, y = 3000,label = paste("n = ", nrow(subset(TempData_Vanni, Excreted.N.P..molar.!="NA"))))+
-  ggtitle("Vanni Excretion N:P Molar")
+ggplot(subset(TempData_Vanni, Excreted.N.P..molar.>1), aes(x = Excreted.N.P..molar.)) + geom_histogram(colour = 'black', fill = 'white', bins=50)+
+  annotate('text', x = 500, y = 300,label = paste("n = ", nrow(subset(TempData_Vanni, Excreted.N.P..molar.!="NA" & Excreted.N.P..molar.>1))))+
+    ggtitle("Vanni Excretion N:P Molar")
+
 
 
