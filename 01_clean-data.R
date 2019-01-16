@@ -23,6 +23,7 @@ TempData_Elser <- Data_Elser %>%
   select(var_names_Elser) %>%
   filter(system %in% c("FRESHWATER", "MARINE")) %>%
   filter(!is.na(temp))
+  
 
 ##Beck: set variables of interest
 var_names_Beck=c("Ref", "Site.Name", "Latitude_GoogleEarth", "Longitude_GoogleEarth", "Days", "Nitrogen.Molarity",
