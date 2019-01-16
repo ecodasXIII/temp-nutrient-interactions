@@ -1,1 +1,0 @@
-#elser manual entry script 

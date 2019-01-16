@@ -1,8 +1,5 @@
+source("./working-scripts/load_packages.R") #load packages and functions
 ## 1) script to clean and wrangle data
-library(tidyverse, verbose = F)
-library(ggplot2)
-theme_mod <- function(){theme_bw() %+replace% theme(panel.grid = element_blank())}
-theme_set(theme_mod()) 
 
 ## Data import
 Data_Beck=read.csv("raw-data/Beck Data/Beck Data.csv")
