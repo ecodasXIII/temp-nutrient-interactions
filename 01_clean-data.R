@@ -15,8 +15,7 @@ Data_Vanni$N.excretion.rate..ug.N.ind.h.=as.numeric(as.character(Data_Vanni$N.ex
 Data_Vanni$Excreted.N.P..molar.=as.numeric(as.character(Data_Vanni$Excreted.N.P..molar.))
 max(Data_Vanni$Temperature..C., na.rm=TRUE)
 min(Data_Vanni$Temperature..C., na.rm=TRUE)
-View(Data_Vanni)
-View(Data_Beck)
+
 ## Elser: set variables of interest
 var_names_Elser = c("id_study","system", "strata", "habitat", "cat", "tax_resp_class",
               "l.n.c","l.p.c","l.int.c","temp","n_avail","n_total","p_avail",

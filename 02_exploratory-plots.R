@@ -60,6 +60,32 @@ ggplot(TempData_Elser, aes(x = p_total)) + geom_histogram(colour = 'black',fill 
   ggtitle("Elser Total P by Ecosystem")
 
 
+# N_LRR
+Elser_log_N_LRR = ggplotGrob(ggplot(TempData_Elser, aes(x = log10(l.n.c))) + geom_histogram(colour = 'black', fill = 'white'))
+ggplot(TempData_Elser, aes(x = l.n.c)) + geom_histogram(colour = 'black', fill = 'white') +
+  annotate('text', x = -1.5, y = 45, label = paste("n =",nrow(subset(TempData_Elser, l.n.c!="NA")))) +
+  annotation_custom(grob = Elser_log_N_LRR, xmin = 0.5, xmax = 3.5, ymin = 20, ymax = 45)+
+  ggtitle("Elser N LRR")
+ggplot(TempData_Elser, aes(x = l.n.c)) + geom_histogram(colour = 'black',fill = 'white') + facet_grid(cat ~ ., scales = 'free')+
+  ggtitle("Elser N LRR by Ecosystem")
+
+# P_LRR
+Elser_log_P_LRR = ggplotGrob(ggplot(TempData_Elser, aes(x = log10(l.p.c))) + geom_histogram(colour = 'black', fill = 'white'))
+ggplot(TempData_Elser, aes(x = l.p.c)) + geom_histogram(colour = 'black', fill = 'white') +
+  annotate('text', x = -1.5, y = 45, label = paste("n =",nrow(subset(TempData_Elser, l.p.c!="NA")))) +
+  annotation_custom(grob = Elser_log_P_LRR, xmin = 0.5, xmax = 3.2, ymin = 20, ymax = 45)+
+  ggtitle("Elser P LRR")
+ggplot(TempData_Elser, aes(x = l.p.c)) + geom_histogram(colour = 'black',fill = 'white') + facet_grid(cat ~ ., scales = 'free')+
+  ggtitle("Elser P LRR by Ecosystem")
+
+# NP_LRR
+Elser_log_NP_LRR = ggplotGrob(ggplot(TempData_Elser, aes(x = log10(l.int.c))) + geom_histogram(colour = 'black', fill = 'white'))
+ggplot(TempData_Elser, aes(x = l.int.c)) + geom_histogram(colour = 'black', fill = 'white') +
+  annotate('text', x = -1.5, y = 45, label = paste("n =",nrow(subset(TempData_Elser, l.int.c!="NA")))) +
+  annotation_custom(grob = Elser_log_NP_LRR, xmin = 2, xmax = 6, ymin = 20, ymax = 45)+
+  ggtitle("Elser NP LRR")
+ggplot(TempData_Elser, aes(x = l.int.c)) + geom_histogram(colour = 'black',fill = 'white') + facet_grid(cat ~ ., scales = 'free')+
+  ggtitle("Elser NP LRR by Ecosystem")
 
 ##Beck Plots
 
