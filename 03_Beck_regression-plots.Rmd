@@ -16,7 +16,12 @@ Data=read.csv("raw-data/Beck Data/Beck_Longform.csv")
 
 ```
 
-## Temperature and raw Chl-a
+##1. ANCOVAs testing the effect of temperature on nutrient treatment (raw chlorophyll a) and nutrient LRRs
+##Lsmeans tests for significant differences among treatments, averaging over temperature
+##Lstrends tests for differences among the relationships between treatments and temperature 
+
+
+### a. Temperature and raw Chl-a
 
 ```{r}
 
@@ -54,7 +59,7 @@ cld(comp)
 
 ```
 
-## Temperature and Nutrient LRRs
+### b.) Temperature and Nutrient LRRs
 
 ```{r cars}
 
@@ -95,7 +100,7 @@ cld(comp)
 
 ```
 
-## NO3_ug_L and raw Chl-a
+### c.) NO3_ug_L and raw Chl-a
 
 ```{r }
 
@@ -133,7 +138,7 @@ cld(comp)
 
 ```
 
-## NO3_ug_L and Nutrient LRRs
+### d.) NO3_ug_L and Nutrient LRRs
 
 ```{r }
 
@@ -172,7 +177,7 @@ cld(comp)
 
 ```
 
-## SRP_ug_L and raw Chl-a
+### e.) SRP_ug_L and raw Chl-a
 
 ```{r }
 
@@ -210,7 +215,7 @@ cld(comp)
 
 ```
 
-## SRP_ug_L and Nutrient LRRs
+### f.) SRP_ug_L and Nutrient LRRs
 
 ```{r }
 
@@ -249,7 +254,7 @@ cld(comp)
 
 ```
 
-## Canopy_Quant and raw Chl-a
+### g.) Canopy_Quant and raw Chl-a
 
 ```{r }
 
@@ -287,7 +292,7 @@ cld(comp)
 
 ```
 
-## Canopy_Quant and Nutrient LRRs
+### h.) Canopy_Quant and Nutrient LRRs
 
 ```{r }
 
@@ -326,7 +331,7 @@ cld(comp)
 
 ```
 
-## NO3_SRP_Ratio and raw Chl-a
+### i.) NO3_SRP_Ratio and raw Chl-a
 
 ```{r }
 
@@ -364,7 +369,7 @@ cld(comp)
 
 ```
 
-## NO3_SRP_Ratio and Nutrient LRRs
+### j.) NO3_SRP_Ratio and Nutrient LRRs
 
 ```{r }
 
@@ -404,7 +409,7 @@ cld(comp)
 ```
 
 
-## NO3_ug_L and Nutrient LRRs
+### k.) NO3_ug_L and Nutrient LRRs
 
 ```{r }
 
@@ -443,7 +448,9 @@ cld(comp)
 
 ```
 
-## Temp-Nut Interactions and raw Chl-a
+## 2.) Three-way interaction models examine the effects of in-stream NO3, SRP, and temp on chlorophyll a (broken out by treatment) and LRRs (broken out by treatment)
+
+### a.) Temp-Nut Interactions and raw Chl-a
 
 ```{r }
 
@@ -511,7 +518,7 @@ Anova(Model, type="III")
 #plot(Model)
 ```
 
-##Temp-Nut interactions on LRRs
+### b.) Temp-Nut interactions on LRRs
 
 ```{r }
 
