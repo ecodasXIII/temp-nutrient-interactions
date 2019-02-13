@@ -26,6 +26,8 @@ ggplot(TempData_Elser, aes(x = n_avail)) + geom_histogram(colour = 'black', fill
   annotate('text', x = 1, y = 220, label = paste("n =",nrow(subset(TempData_Elser, n_avail!="NA")))) +
   annotation_custom(grob = Elser_log_n_avail, xmin = 250, xmax = 550, ymin = 100, ymax = 220)+
   ggtitle("Elser Available N")
+ggplot(TempData_Elser, aes(x = n_avail)) + geom_histogram(colour = 'black',fill = 'white') + facet_grid(cat ~ ., scales = 'free')+
+  ggtitle("Elser Available N by Ecosystem")
 
 #Total N Range
 
@@ -34,6 +36,8 @@ ggplot(TempData_Elser, aes(x = n_total)) + geom_histogram(colour = 'black', fill
   annotate('text', x = 1, y = 20, label = paste("n =", nrow(subset(TempData_Elser, n_total!="NA")))) +
   annotation_custom(grob = Elser_log_n_total, xmin = 250, xmax = 400, ymin = 10, ymax = 20)+
   ggtitle("Elser Total N")
+ggplot(TempData_Elser, aes(x = n_total)) + geom_histogram(colour = 'black',fill = 'white') + facet_grid(cat ~ ., scales = 'free')+
+  ggtitle("Elser Total N by Ecosystem")
 
 #Avail P Range
 
@@ -42,6 +46,8 @@ ggplot(TempData_Elser, aes(x = p_avail)) + geom_histogram(colour = 'black', fill
   annotate('text', x = .1, y = 135, label = paste("n =",nrow(subset(TempData_Elser, p_avail!="NA")))) +
   annotation_custom(grob = Elser_log_p_avail, xmin = 5, xmax = 9, ymin = 50, ymax = 135)+
   ggtitle("Elser Available P")
+ggplot(TempData_Elser, aes(x = p_avail)) + geom_histogram(colour = 'black',fill = 'white') + facet_grid(cat ~ ., scales = 'free')+
+  ggtitle("Elser Available P by Ecosystem")
 
 #Total P Range
 
@@ -50,6 +56,10 @@ ggplot(TempData_Elser, aes(x = p_total)) + geom_histogram(colour = 'black', fill
   annotate('text', x = .1, y = 45, label = paste("n =",nrow(subset(TempData_Elser, p_total!="NA")))) +
   annotation_custom(grob = Elser_log_p_total, xmin = 10, xmax = 20, ymin = 20, ymax = 45)+
   ggtitle("Elser Total P")
+ggplot(TempData_Elser, aes(x = p_total)) + geom_histogram(colour = 'black',fill = 'white') + facet_grid(cat ~ ., scales = 'free')+
+  ggtitle("Elser Total P by Ecosystem")
+
+
 
 ##Beck Plots
 
@@ -97,6 +107,38 @@ ggplot(TempData_Beck, aes(x = TP_ug_L)) + geom_histogram(colour = 'black', fill 
   annotation_custom(grob = Beck_log_TP, xmin = 1500, xmax = 2500, ymin = 30, ymax = 50)+
   ggtitle("Beck TP")
 
+#Control mean Range
+
+Beck_Control_Mean = ggplotGrob(ggplot(TempData_Beck, aes(x = log10(Control_mean_mg_m2))) + geom_histogram(colour = 'black', fill = 'white'))
+ggplot(TempData_Beck, aes(x = Control_mean_mg_m2)) + geom_histogram(colour = 'black', fill = 'white') +
+  annotate('text', x = 50, y = 130, label = paste("n =", nrow(subset(TempData_Beck, Control_mean_mg_m2!="NA")))) +
+  annotation_custom(grob = Beck_Control_Mean, xmin = 225, xmax = 400, ymin = 100, ymax = 150)+
+  ggtitle("Beck Control Mean")
+
+#N_LRR Effect Size
+
+Beck_N_LRR_Effect_Size = ggplotGrob(ggplot(TempData_Beck, aes(x = log10(N.LRR.Effect))) + geom_histogram(colour = 'black', fill = 'white'))
+ggplot(TempData_Beck, aes(x = N.LRR.Effect)) + geom_histogram(binwidth=0.2, colour = 'black', fill = 'white') +
+  annotate('text', x = -5, y = 90, label = paste("n =", nrow(subset(TempData_Beck, N.LRR.Effect!="NA")))) +
+  annotation_custom(grob = Beck_N_LRR_Effect_Size, xmin = -6, xmax = -2, ymin = 50, ymax = 80)+
+  ggtitle("N LRR Effect Size")
+
+
+#P_LRR Effect Size
+
+Beck_P_LRR_Effect_Size = ggplotGrob(ggplot(TempData_Beck, aes(x = log10(P.LRR.Effect))) + geom_histogram(colour = 'black', fill = 'white'))
+ggplot(TempData_Beck, aes(x = P.LRR.Effect)) + geom_histogram(binwidth=0.2, colour = 'black', fill = 'white') +
+  annotate('text', x = -2, y = 90, label = paste("n =", nrow(subset(TempData_Beck, P.LRR.Effect!="NA")))) +
+  annotation_custom(grob = Beck_P_LRR_Effect_Size, xmin = -3, xmax = -0.5, ymin = 50, ymax = 80)+
+  ggtitle("P LRR Effect Size")
+
+#P_LRR Effect Size
+
+Beck_NP_LRR_Effect_Size = ggplotGrob(ggplot(TempData_Beck, aes(x = log10(NP.LRR))) + geom_histogram(colour = 'black', fill = 'white'))
+ggplot(TempData_Beck, aes(x = NP.LRR)) + geom_histogram(binwidth=0.2, colour = 'black', fill = 'white') +
+  annotate('text', x = -2, y = 90, label = paste("n =", nrow(subset(TempData_Beck, NP.LRR!="NA")))) +
+  annotation_custom(grob = Beck_NP_LRR_Effect_Size, xmin = 0.5, xmax = 4, ymin = 50, ymax = 80)+
+  ggtitle("NP LRR Effect Size")
 
 ##Vanni Plots
 

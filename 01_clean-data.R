@@ -8,11 +8,15 @@ theme_set(theme_mod())
 Data_Beck=read.csv("raw-data/Beck Data/Beck Data.csv")
 Data_Elser=read.csv("raw-data/Elser-et-al-2007_Global-N-P-limitation/data/doi_10.5063_AA_nceasadmin.910.2-np-analysis-dataset-out-for-datasharing.csv")
 Data_Vanni=read.csv("raw-data/Vanni-et-al_2017_Animal-excretion/Aquatic_animal_excretion_data.csv")
-Data_Vanni$Temperature..C.=as.numeric(Data_Vanni$Temperature..C.)
-Data_Vanni$P.excretion.rate..ug.P.ind.h.=as.numeric(Data_Vanni$P.excretion.rate..ug.P.ind.h.)
-Data_Vanni$N.excretion.rate..ug.N.ind.h.=as.numeric(Data_Vanni$N.excretion.rate..ug.N.ind.h.)
-Data_Vanni$Excreted.N.P..molar.=as.numeric(Data_Vanni$Excreted.N.P..molar.)
-
+#added "as.character" to following 4 lines of code to avoid getting just the internal integer codes (https://stackoverflow.com/questions/6328771/changing-values-when-converting-column-type-to-numeric)
+Data_Vanni$Temperature..C.=as.numeric(as.character(Data_Vanni$Temperature..C.))
+Data_Vanni$P.excretion.rate..ug.P.ind.h.=as.numeric(as.character(Data_Vanni$P.excretion.rate..ug.P.ind.h.))
+Data_Vanni$N.excretion.rate..ug.N.ind.h.=as.numeric(as.character(Data_Vanni$N.excretion.rate..ug.N.ind.h.))
+Data_Vanni$Excreted.N.P..molar.=as.numeric(as.character(Data_Vanni$Excreted.N.P..molar.))
+max(Data_Vanni$Temperature..C., na.rm=TRUE)
+min(Data_Vanni$Temperature..C., na.rm=TRUE)
+View(Data_Vanni)
+View(Data_Beck)
 ## Elser: set variables of interest
 var_names_Elser = c("id_study","system", "strata", "habitat", "cat", "tax_resp_class",
               "l.n.c","l.p.c","l.int.c","temp","n_avail","n_total","p_avail",
