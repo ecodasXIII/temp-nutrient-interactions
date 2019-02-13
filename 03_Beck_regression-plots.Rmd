@@ -2,7 +2,9 @@
 title: "Temp-Nut Plots"
 author: "Whitney Beck"
 date: "February 12, 2019"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -534,8 +536,8 @@ Anova(Model, type="III")
 
 #Log mostly meets assumptions
 
-par(mfrow=c(2,2))
-plot(Model)
+#par(mfrow=c(2,2))
+#plot(Model)
 
 
 ##Phosphorus
@@ -550,8 +552,8 @@ Anova(Model, type="III")
 
 #Log mostly meets assumptions
 
-par(mfrow=c(2,2))
-plot(Model)
+#par(mfrow=c(2,2))
+#plot(Model)
 
 
 ##Nitrogen + Phosphorus
@@ -566,7 +568,7 @@ Anova(Model, type="III")
 
 #Log meets assumptions
 
-par(mfrow=c(2,2))
-plot(Model)
+#par(mfrow=c(2,2))
+#plot(Model)
 
 ```
