@@ -4,8 +4,8 @@ A repository related to the temperature-nutrient interactions working group
 
 ## Files
 * raw data - folder containing raw data, metadata, readme, etc for individual datasets
-* `01_clean-data.R` - script to wrangle and clean data from raw
-* `02_exploratory-plots.R` - script to make exploratory plots of data coverage
+* '01_exploratory-plots.Rmd' - script to clean data from raw and produce initial plots 
+* '02_initial-stats-Beck.Rmd' - script to create plots, regressions, ANCOVAs from Beck data
 
 ## Data overview
 
