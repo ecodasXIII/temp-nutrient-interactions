@@ -1,0 +1,409 @@
+---
+title: "spec_vs_fluorometer_20190307"
+author: "Bella Oleksy"
+date: "3/7/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Document summary
+The structure of the document: I summarized temperature, NO3, SRP, Chl a (resp) means by instrument type and extraction chemical then plotted every possible combination. 
+
+```{r, include=FALSE, warning=FALSE, message=FALSE, echo=FALSE}
+## Data import
+library(skimr)
+library(tidyverse, verbose = F)
+library(ggplot2)
+library(reshape2) #melt()
+library(kableExtra) # for making tables pretty/legible
+library(ggthemes) #scale_color()
+
+data.beck=read.csv("raw-data/Beck Data/Beck Data.csv", stringsAsFactors = FALSE)
+
+data.beck %>%
+    # select(Ref, Site.Name, Chla_Instrument,Chla_Extraction,Control_mean_mg_m2, N_mean_mg_m2, NP_mean_mg_m2, P_mean_mg_m2) %>%
+  select(Ref, Site.Name, Chla_Instrument,Chla_Extraction,Control_mean_mg_m2, N_mean_mg_m2, NP_mean_mg_m2, P_mean_mg_m2,Temp_C,NO3_ug_L,SRP_ug_L,NO3_SRP_Ratio) %>%
+  group_by(Chla_Instrument) %>%
+  skim()
+```
+
+
+```{r, include=FALSE, warning=FALSE, message=FALSE, echo=FALSE}
+###Wide to long format - subset of data
+data.beck.long <- data.beck %>%
+  select(Ref, Site.Name, Chla_Instrument,Chla_Extraction,Control_mean_mg_m2, N_mean_mg_m2, NP_mean_mg_m2, P_mean_mg_m2, Temp_C,NO3_ug_L,SRP_ug_L,NO3_SRP_Ratio)
+
+data.beck.long = melt(data.beck.long, id.vars = c("Ref", "Site.Name", "Chla_Instrument","Chla_Extraction","Temp_C","NO3_ug_L","SRP_ug_L","NO3_SRP_Ratio"),
+                          measure.vars = c("Control_mean_mg_m2","N_mean_mg_m2","NP_mean_mg_m2","P_mean_mg_m2")) %>%
+  dplyr::rename(treatment = variable, #rename columns 
+         mean_chl_mg_m2 = value)
+
+
+data.beck.long$Chla_Extraction[data.beck.long$Chla_Extraction == "90% Acetone"] <- "Acetone"
+data.beck.long$Chla_Extraction[data.beck.long$Chla_Extraction == "95% Acetone"] <- "Acetone"
+data.beck.long$Chla_Extraction[data.beck.long$Chla_Extraction == "95% Ethanol"] <- "Ethanol"
+data.beck.long$Chla_Extraction[data.beck.long$Chla_Extraction == "90% Ethanol"] <- "Ethanol"
+data.beck.long$Chla_Extraction[data.beck.long$Chla_Extraction == ""] <- "Not reported"
+
+```
+
+# Temperature means by instrument type 
+###Summary table
+```{r, tidy=TRUE, warning=FALSE, message=FALSE, fig.width=12}
+
+data.beck.long %>%
+  group_by(Chla_Instrument, Chla_Extraction) %>%
+  summarize(mean_temp = mean(Temp_C, na.rm=TRUE),
+            sd_temp = sd(Temp_C, na.rm=TRUE),
+            n = n()) %>%
+  kable("html", digits=3, caption="Mean, SD, and # observations for each instrument x extraction combo") %>%
+  kable_styling(bootstrap_options = c("striped","hover","condensed"), full_width = F, position="left", font_size=12)
+```
+
+###Plots by instrument type
+```{r, tidy=TRUE, warning=FALSE, message=FALSE, fig.width=12}
+data.beck.long %>%
+  filter(!is.na(Chla_Extraction)) %>%
+  ggplot(aes(x=Chla_Instrument, y=Temp_C)) +
+  geom_boxplot(position=position_dodge(0.8))+
+  # geom_jitter(position=position_jitter(0.2))+
+  stat_boxplot(geom ='errorbar') +
+  geom_point(aes(x = Chla_Instrument, colour = Chla_Extraction), position = "jitter") +
+  theme_bw() +
+  scale_color_few() +
+  theme(legend.position = "top")
+```
+
+> There definitely appears to be some clustering wtihin each instrument type by extraction chemical. 
+
+
+```{r, tidy=TRUE, warning=FALSE, message=FALSE, fig.width=12}
+data.beck.long %>%
+  filter(!is.na(Chla_Instrument)) %>%
+  ggplot(aes(x=Chla_Extraction, y=Temp_C)) +
+  geom_boxplot(position=position_dodge(0.8))+
+  # geom_jitter(position=position_jitter(0.2))+
+  stat_boxplot(geom ='errorbar') +
+  geom_point(aes(x = Chla_Extraction, colour = Chla_Instrument), position = "jitter") +
+  theme_bw() +
+  scale_color_few() +
+  theme(legend.position = "top")
+```
+
+> More clustering. Next I'll plot each instrument type separately. 
+
+```{r, tidy=TRUE, warning=FALSE, message=FALSE, fig.width=12}
+data.beck.long %>%
+  filter(!is.na(Chla_Instrument)) %>%
+  filter(Chla_Instrument == "Fluorometer") %>%
+  ggplot(aes(x=Chla_Extraction, y=Temp_C)) +
+  geom_boxplot(position=position_dodge(0.8))+
+  # geom_jitter(position=position_jitter(0.2))+
+  stat_boxplot(geom ='errorbar') +
+  geom_point(aes(x = Chla_Extraction, colour = Chla_Extraction), position = "jitter") +
+  theme_bw() +
+  scale_color_few() +
+  theme(legend.position = "top") +
+  labs(title="Fluorometer only",
+       subtitle = "")
+```
+
+> Overall lower temperatures in the Fluorometer - ethanol extractions, by chance. 
+
+```{r, tidy=TRUE, warning=FALSE, message=FALSE, fig.width=12}
+data.beck.long %>%
+  filter(!is.na(Chla_Instrument)) %>%
+  filter(Chla_Instrument == "Spectrophotometer") %>%
+  ggplot(aes(x=Chla_Extraction, y=Temp_C)) +
+  geom_boxplot(position=position_dodge(0.8))+
+  # geom_jitter(position=position_jitter(0.2))+
+  stat_boxplot(geom ='errorbar') +
+  geom_point(aes(x = Chla_Extraction, colour = Chla_Extraction), position = "jitter") +
+  theme_bw() +
+  scale_color_few() +
+  theme(legend.position = "top") +
+  labs(title="Spectrophotometer only",
+       subtitle = "")
+```
+
+> Lower temperature on average with ethanol vs acetone extraction. 
+
+# In stream NO3 means by instrument type 
+###Summary table
+```{r, tidy=TRUE, warning=FALSE, message=FALSE, fig.width=12}
+
+data.beck.long %>%
+  group_by(Chla_Instrument, Chla_Extraction) %>%
+  summarize(mean_log_NO3 = mean(log(NO3_ug_L+0.01), na.rm=TRUE),
+            mean_log_NO3 = sd(log(NO3_ug_L+0.01), na.rm=TRUE),
+            n = n()) %>%
+  kable("html", digits=3, caption="Mean, SD, and # observations for each instrument x extraction combo") %>%
+  kable_styling(bootstrap_options = c("striped","hover","condensed"), full_width = F, position="left", font_size=12)
+```
+
+###Plots by instrument type
+```{r, tidy=TRUE, warning=FALSE, message=FALSE, fig.width=12}
+data.beck.long %>%
+  filter(!is.na(Chla_Extraction)) %>%
+  ggplot(aes(x=Chla_Instrument, y=log(NO3_ug_L+0.01))) +
+  geom_boxplot(position=position_dodge(0.8))+
+  # geom_jitter(position=position_jitter(0.2))+
+  stat_boxplot(geom ='errorbar') +
+  geom_point(aes(x = Chla_Instrument, colour = Chla_Extraction), position = "jitter") +
+  theme_bw() +
+  scale_color_few() +
+  theme(legend.position = "top")
+```
+
+> In stream NO3 is very high in whatever studies didn't report intrument type. Slightly higher NO3 with spec versus fluorometer studies, but not much. 
+
+
+```{r, tidy=TRUE, warning=FALSE, message=FALSE, fig.width=12}
+data.beck.long %>%
+  filter(!is.na(Chla_Instrument)) %>%
+  ggplot(aes(x=Chla_Extraction, y=log(NO3_ug_L+0.01))) +
+  geom_boxplot(position=position_dodge(0.8))+
+  # geom_jitter(position=position_jitter(0.2))+
+  stat_boxplot(geom ='errorbar') +
+  geom_point(aes(x = Chla_Extraction, colour = Chla_Instrument), position = "jitter") +
+  theme_bw() +
+  scale_color_few() +
+  theme(legend.position = "top")
+```
+
+> What study used Acetone & Dimethyl sulfoxide happens to also have the highest in-stream NO3
+
+```{r, tidy=TRUE, warning=FALSE, message=FALSE, fig.width=12}
+data.beck.long %>%
+  filter(!is.na(Chla_Instrument)) %>%
+  filter(Chla_Instrument == "Fluorometer") %>%
+  ggplot(aes(x=Chla_Extraction, y=log(NO3_ug_L+0.01))) +
+  geom_boxplot(position=position_dodge(0.8))+
+  # geom_jitter(position=position_jitter(0.2))+
+  stat_boxplot(geom ='errorbar') +
+  geom_point(aes(x = Chla_Extraction, colour = Chla_Extraction), position = "jitter") +
+  theme_bw() +
+  scale_color_few() +
+  theme(legend.position = "top") +
+  labs(title="Fluorometer only",
+       subtitle = "")
+```
+
+> Overall lower NO3 in the Fluorometer - acetone extractions, by chance. 
+
+```{r, tidy=TRUE, warning=FALSE, message=FALSE, fig.width=12}
+data.beck.long %>%
+  filter(!is.na(Chla_Instrument)) %>%
+  filter(Chla_Instrument == "Spectrophotometer") %>%
+  ggplot(aes(x=Chla_Extraction, y=log(NO3_ug_L+0.01))) +
+  geom_boxplot(position=position_dodge(0.8))+
+  # geom_jitter(position=position_jitter(0.2))+
+  stat_boxplot(geom ='errorbar') +
+  geom_point(aes(x = Chla_Extraction, colour = Chla_Extraction), position = "jitter") +
+  theme_bw() +
+  scale_color_few() +
+  theme(legend.position = "top") +
+  labs(title="Spectrophotometer only",
+       subtitle = "")
+```
+
+> Overall higher NO3 in the spec-acetone studies than spec-ethanol studies, on average. 
+
+# In stream SRP means by instrument type 
+###Summary table
+```{r, tidy=TRUE, warning=FALSE, message=FALSE, fig.width=12}
+
+data.beck.long %>%
+  group_by(Chla_Instrument, Chla_Extraction) %>%
+  summarize(mean_log_SRP = mean(log(SRP_ug_L+0.01), na.rm=TRUE),
+            mean_log_SRP = sd(log(SRP_ug_L+0.01), na.rm=TRUE),
+            n = n()) %>%
+  kable("html", digits=3, caption="Mean, SD, and # observations for each instrument x extraction combo") %>%
+  kable_styling(bootstrap_options = c("striped","hover","condensed"), full_width = F, position="left", font_size=12)
+```
+
+###Plots by instrument type
+```{r, tidy=TRUE, warning=FALSE, message=FALSE, fig.width=12}
+data.beck.long %>%
+  filter(!is.na(Chla_Extraction)) %>%
+  ggplot(aes(x=Chla_Instrument, y=log(SRP_ug_L+0.01))) +
+  geom_boxplot(position=position_dodge(0.8))+
+  # geom_jitter(position=position_jitter(0.2))+
+  stat_boxplot(geom ='errorbar') +
+  geom_point(aes(x = Chla_Instrument, colour = Chla_Extraction), position = "jitter") +
+  theme_bw() +
+  scale_color_few() +
+  theme(legend.position = "top")
+```
+
+> Not quite as much variation as NO3
+
+
+```{r, tidy=TRUE, warning=FALSE, message=FALSE, fig.width=12}
+data.beck.long %>%
+  filter(!is.na(Chla_Instrument)) %>%
+  ggplot(aes(x=Chla_Extraction, y=log(SRP_ug_L+0.01))) +
+  geom_boxplot(position=position_dodge(0.8))+
+  # geom_jitter(position=position_jitter(0.2))+
+  stat_boxplot(geom ='errorbar') +
+  geom_point(aes(x = Chla_Extraction, colour = Chla_Instrument), position = "jitter") +
+  theme_bw() +
+  scale_color_few() +
+  theme(legend.position = "top")
+```
+
+> It looks like overall the studies that used ethanol on average had lower SRP than studies that used acetone. 
+
+```{r, tidy=TRUE, warning=FALSE, message=FALSE, fig.width=12}
+data.beck.long %>%
+  filter(!is.na(Chla_Instrument)) %>%
+  filter(Chla_Instrument == "Fluorometer") %>%
+  ggplot(aes(x=Chla_Extraction, y=log(SRP_ug_L+0.01))) +
+  geom_boxplot(position=position_dodge(0.8))+
+  # geom_jitter(position=position_jitter(0.2))+
+  stat_boxplot(geom ='errorbar') +
+  geom_point(aes(x = Chla_Extraction, colour = Chla_Extraction), position = "jitter") +
+  theme_bw() +
+  scale_color_few() +
+  theme(legend.position = "top") +
+  labs(title="Fluorometer only",
+       subtitle = "")
+```
+
+> Not too big of a difference between acetone and ethanol in the fluorometer studies. 
+
+```{r, tidy=TRUE, warning=FALSE, message=FALSE, fig.width=12}
+data.beck.long %>%
+  filter(!is.na(Chla_Instrument)) %>%
+  filter(Chla_Instrument == "Spectrophotometer") %>%
+  ggplot(aes(x=Chla_Extraction, y=log(SRP_ug_L+0.01))) +
+  geom_boxplot(position=position_dodge(0.8))+
+  # geom_jitter(position=position_jitter(0.2))+
+  stat_boxplot(geom ='errorbar') +
+  geom_point(aes(x = Chla_Extraction, colour = Chla_Extraction), position = "jitter") +
+  theme_bw() +
+  scale_color_few() +
+  theme(legend.position = "top") +
+  labs(title="Spectrophotometer only",
+       subtitle = "")
+```
+
+> Much larger range in SRP in the Spec-ethanol studies, and on average lower SRP than the spec-acetone studies. 
+
+# Chl a means by instrument type 
+###Summary table
+```{r, tidy=TRUE, warning=FALSE, message=FALSE, fig.width=12}
+
+data.beck.long %>%
+  group_by(Chla_Instrument, Chla_Extraction) %>%
+  summarize(mean_log_chla = mean(log(mean_chl_mg_m2+0.01), na.rm=TRUE),
+            mean_log_chla = sd(log(mean_chl_mg_m2+0.01), na.rm=TRUE),
+            n = n()) %>%
+  kable("html", digits=3, caption="Mean, SD, and # observations for each instrument x extraction combo") %>%
+  kable_styling(bootstrap_options = c("striped","hover","condensed"), full_width = F, position="left", font_size=12)
+```
+
+###Plots by instrument type
+```{r, tidy=TRUE, warning=FALSE, message=FALSE, fig.width=12}
+data.beck.long %>%
+  filter(!is.na(Chla_Extraction)) %>%
+  ggplot(aes(x=Chla_Instrument, y=log(mean_chl_mg_m2+0.01))) +
+  geom_boxplot(position=position_dodge(0.8))+
+  # geom_jitter(position=position_jitter(0.2))+
+  stat_boxplot(geom ='errorbar') +
+  geom_point(aes(x = Chla_Instrument, colour = Chla_Extraction), position = "jitter") +
+  theme_bw() +
+  scale_color_few() +
+  theme(legend.position = "top")
+```
+
+> Chl a on average higher in fluorometer than spec studies. 
+
+
+```{r, tidy=TRUE, warning=FALSE, message=FALSE, fig.width=12}
+data.beck.long %>%
+  filter(!is.na(Chla_Instrument)) %>%
+  ggplot(aes(x=Chla_Extraction, y=log(mean_chl_mg_m2+0.01))) +
+  geom_boxplot(position=position_dodge(0.8))+
+  # geom_jitter(position=position_jitter(0.2))+
+  stat_boxplot(geom ='errorbar') +
+  geom_point(aes(x = Chla_Extraction, colour = Chla_Instrument), position = "jitter") +
+  theme_bw() +
+  scale_color_few() +
+  theme(legend.position = "top")
+```
+
+> With acetone, there seems to be some clustering with higher fluorometer values for chl a. 
+
+```{r, tidy=TRUE, warning=FALSE, message=FALSE, fig.width=12}
+data.beck.long %>%
+  filter(!is.na(Chla_Instrument)) %>%
+  filter(Chla_Instrument == "Fluorometer") %>%
+  ggplot(aes(x=Chla_Extraction, y=log(mean_chl_mg_m2+0.01))) +
+  geom_boxplot(position=position_dodge(0.8))+
+  # geom_jitter(position=position_jitter(0.2))+
+  stat_boxplot(geom ='errorbar') +
+  geom_point(aes(x = Chla_Extraction, colour = Chla_Extraction), position = "jitter") +
+  theme_bw() +
+  scale_color_few() +
+  theme(legend.position = "top") +
+  labs(title="Fluorometer only",
+       subtitle = "")
+```
+
+> Fluorometer only - higher chl a in acetone versus ethanol extraction studies, on average. 
+
+```{r, tidy=TRUE, warning=FALSE, message=FALSE, fig.width=12}
+data.beck.long %>%
+  filter(!is.na(Chla_Instrument)) %>%
+  filter(Chla_Instrument == "Spectrophotometer") %>%
+  ggplot(aes(x=Chla_Extraction, y=log(mean_chl_mg_m2+0.01))) +
+  geom_boxplot(position=position_dodge(0.8))+
+  # geom_jitter(position=position_jitter(0.2))+
+  stat_boxplot(geom ='errorbar') +
+  geom_point(aes(x = Chla_Extraction, colour = Chla_Extraction), position = "jitter") +
+  theme_bw() +
+  scale_color_few() +
+  theme(legend.position = "top") +
+  labs(title="Spectrophotometer only",
+       subtitle = "")
+```
+
+> Much larger range in chl a in the Spec-ethanol studies, and on average lower chl a than the spec-acetone studies.  How does it break down by treatment?
+
+```{r, tidy=TRUE, warning=FALSE, message=FALSE, fig.width=12}
+data.beck.long %>%
+  filter(!is.na(Chla_Instrument)) %>%
+  filter(Chla_Instrument == "Fluorometer") %>%
+  filter(Chla_Extraction %in% c("Acetone","Ethanol"))%>%
+  ggplot(aes(x=Chla_Extraction, y=log(mean_chl_mg_m2+0.01))) +
+  geom_boxplot(position=position_dodge(0.8))+
+  # geom_jitter(position=position_jitter(0.2))+
+  stat_boxplot(geom ='errorbar') +
+  geom_point(aes(x = Chla_Extraction, colour = Chla_Extraction), position = "jitter") +
+  theme_bw() +
+  scale_color_few() +
+  facet_wrap(~treatment)+
+  theme(legend.position = "top") +
+  labs(title="Fluorometer only",
+       subtitle = "")
+
+data.beck.long %>%
+  filter(!is.na(Chla_Instrument)) %>%
+  filter(Chla_Instrument == "Spectrophotometer") %>%
+  filter(Chla_Extraction %in% c("Acetone","Ethanol"))%>%
+  ggplot(aes(x=Chla_Extraction, y=log(mean_chl_mg_m2+0.01))) +
+  geom_boxplot(position=position_dodge(0.8))+
+  # geom_jitter(position=position_jitter(0.2))+
+  stat_boxplot(geom ='errorbar') +
+  geom_point(aes(x = Chla_Extraction, colour = Chla_Extraction), position = "jitter") +
+  theme_bw() +
+  scale_color_few() +
+  facet_wrap(~treatment)+
+  theme(legend.position = "top") +
+  labs(title="Spectrophotometer only",
+       subtitle = "")
+```
