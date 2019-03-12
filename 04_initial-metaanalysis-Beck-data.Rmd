@@ -1,0 +1,301 @@
+---
+title: "Temp-Nut Plots"
+author: "Whitney Beck"
+date: "February 12, 2019"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(ggplot2)
+library(metafor)
+
+Datatemp=read.csv("raw-data/Beck Data/Beck Data_TTests.csv")
+Data=subset(Datatemp, P.LRR.Variance<3)
+Data$logNH4_ug_L=log(Data$NH4_ug_L)
+Data$logNO3_ug_L=log(Data$NO3_ug_L+.01)
+Data$logSRP_ug_L=log(Data$SRP_ug_L)
+Data$logDIN_ug_L=log(Data$DIN_ug_L)
+Data$logTN_mg_L= log(Data$TN_mg_L)
+Data$logTP_ug_L= log(Data$TP_ug_L)
+
+```
+
+### a. Random Study Effect- better than not including random effect
+
+```{r}
+
+N_Effect <- rma.mv(N.LRR.Effect, N.LRR.Variance, random = ~ 1 | Ref, data=Data)
+N_Effect_Red = rma.mv(N.LRR.Effect, N.LRR.Variance, data=Data)
+anova.rma(N_Effect, N_Effect_Red)
+
+P_Effect <- rma.mv(P.LRR.Effect, P.LRR.Variance, random = ~ 1 | Ref, data=Data)
+P_Effect_Red = rma.mv(P.LRR.Effect, P.LRR.Variance, data=Data)
+anova.rma(P_Effect, P_Effect_Red)
+
+NP_Effect <- rma.mv(NP.LRR, NP.LRR.Variance, random = ~ 1 | Ref, data=Data)
+NP_Effect_Red = rma.mv(NP.LRR, NP.LRR.Variance, data=Data)
+anova.rma(NP_Effect, NP_Effect_Red)
+
+```
+
+### b.) Ammonium
+
+```{r}
+
+#Nitrogen
+N_AmmoniumMod <- rma.mv(N.LRR.Effect, N.LRR.Variance, random = ~ 1 | Ref, mods= ~logNH4_ug_L, data=Data)
+N_AmmoniumMod
+N_AmmoniumMod_null <- rma.mv(N.LRR.Effect, N.LRR.Variance, random = ~ 1 | Ref, data=Data)
+N_AmmoniumMod_null
+
+N_AmmoniumFit=fitted(N_AmmoniumMod)
+N_AmmoniumResid=resid(N_AmmoniumMod)
+qqplot(N_AmmoniumFit, NAmres)
+plot(Data$logNH4_ug_L, Data$N.LRR.Effect)
+abline(lm(Data$N.LRR.Effect~ Data$logNH4_ug_L))
+
+#Phosphorus
+P_AmmoniumMod <- rma.mv(P.LRR.Effect, P.LRR.Variance, random = ~ 1 | Ref, mods= ~logNH4_ug_L, data=Data)
+P_AmmoniumMod
+P_AmmoniumMod_null <- rma.mv(P.LRR.Effect, P.LRR.Variance, random = ~ 1 | Ref, data=Data)
+P_AmmoniumMod_null
+
+P_AmmoniumFit=fitted(P_AmmoniumMod)
+P_AmmoniumResid=resid(P_AmmoniumMod)
+qqplot(P_AmmoniumFit, NAmres)
+plot(Data$logNH4_ug_L, Data$P.LRR.Effect)
+abline(lm(Data$P.LRR.Effect~ Data$logNH4_ug_L))
+
+#Nitrogen + Phosphorus
+NP_AmmoniumMod <- rma.mv(NP.LRR, NP.LRR.Variance, random = ~ 1 | Ref, mods= ~logNH4_ug_L, data=Data)
+NP_AmmoniumMod
+NP_AmmoniumMod_null <- rma.mv(NP.LRR, NP.LRR.Variance, random = ~ 1 | Ref, data=Data)
+NP_AmmoniumMod_null
+
+NP_AmmoniumFit=fitted(NP_AmmoniumMod)
+NP_AmmoniumResid=resid(NP_AmmoniumMod)
+qqNPlot(NP_AmmoniumFit, NAmres)
+NPlot(Data$logNH4_ug_L, Data$NP.LRR.Effect)
+abline(lm(Data$NP.LRR~ Data$logNH4_ug_L))
+
+
+```
+
+### c.) Nitrate
+
+```{r}
+
+#Nitrogen
+N_NitrateMod <- rma.mv(N.LRR.Effect, N.LRR.Variance, random = ~ 1 | Ref, mods= ~logNO3_ug_L, data=Data)
+N_NitrateMod
+N_NitrateMod_null <- rma.mv(N.LRR.Effect, N.LRR.Variance, random = ~ 1 | Ref, data=Data)
+N_NitrateMod_null
+
+N_NitrateFit=fitted(N_NitrateMod)
+N_NitrateResid=resid(N_NitrateMod)
+qqplot(N_NitrateFit, NAmres)
+plot(Data$logNO3_ug_L, Data$N.LRR.Effect)
+abline(lm(Data$N.LRR.Effect~ Data$logNO3_ug_L))
+
+#Phosphorus
+P_NitrateMod <- rma.mv(P.LRR.Effect, P.LRR.Variance, random = ~ 1 | Ref, mods= ~logNO3_ug_L, data=Data)
+P_NitrateMod
+P_NitrateMod_null <- rma.mv(P.LRR.Effect, P.LRR.Variance, random = ~ 1 | Ref, data=Data)
+P_NitrateMod_null
+
+P_NitrateFit=fitted(P_NitrateMod)
+P_NitrateResid=resid(P_NitrateMod)
+qqplot(P_NitrateFit, NAmres)
+plot(Data$logNO3_ug_L, Data$P.LRR.Effect)
+abline(lm(Data$P.LRR.Effect~ Data$logNO3_ug_L))
+
+#Nitrogen + Phosphorus
+NP_NitrateMod <- rma.mv(NP.LRR, NP.LRR.Variance, random = ~ 1 | Ref, mods= ~logNO3_ug_L, data=Data)
+NP_NitrateMod
+NP_NitrateMod_null <- rma.mv(NP.LRR, NP.LRR.Variance, random = ~ 1 | Ref, data=Data)
+NP_NitrateMod_null
+
+NP_NitrateFit=fitted(NP_NitrateMod)
+NP_NitrateResid=resid(NP_NitrateMod)
+qqNPlot(NP_NitrateFit, NAmres)
+NPlot(Data$logNO3_ug_L, Data$NP.LRR.Effect)
+abline(lm(Data$NP.LRR~ Data$logNO3_ug_L))
+
+
+```
+
+### d.) DIN
+
+```{r}
+
+#Nitrogen
+N_DINMod <- rma.mv(N.LRR.Effect, N.LRR.Variance, random = ~ 1 | Ref, mods= ~logDIN_ug_L, data=Data)
+N_DINMod
+N_DINMod_null <- rma.mv(N.LRR.Effect, N.LRR.Variance, random = ~ 1 | Ref, data=Data)
+N_DINMod_null
+
+N_DINFit=fitted(N_DINMod)
+N_DINResid=resid(N_DINMod)
+qqplot(N_DINFit, NAmres)
+plot(Data$logDIN_ug_L, Data$N.LRR.Effect)
+abline(lm(Data$N.LRR.Effect~ Data$logDIN_ug_L))
+
+#Phosphorus
+P_DINMod <- rma.mv(P.LRR.Effect, P.LRR.Variance, random = ~ 1 | Ref, mods= ~logDIN_ug_L, data=Data)
+P_DINMod
+P_DINMod_null <- rma.mv(P.LRR.Effect, P.LRR.Variance, random = ~ 1 | Ref, data=Data)
+P_DINMod_null
+
+P_DINFit=fitted(P_DINMod)
+P_DINResid=resid(P_DINMod)
+qqplot(P_DINFit, NAmres)
+plot(Data$logDIN_ug_L, Data$P.LRR.Effect)
+abline(lm(Data$P.LRR.Effect~ Data$logDIN_ug_L))
+
+#Nitrogen + Phosphorus
+NP_DINMod <- rma.mv(NP.LRR, NP.LRR.Variance, random = ~ 1 | Ref, mods= ~logDIN_ug_L, data=Data)
+NP_DINMod
+NP_DINMod_null <- rma.mv(NP.LRR, NP.LRR.Variance, random = ~ 1 | Ref, data=Data)
+NP_DINMod_null
+
+NP_DINFit=fitted(NP_DINMod)
+NP_DINResid=resid(NP_DINMod)
+qqNPlot(NP_DINFit, NAmres)
+NPlot(Data$logDIN_ug_L, Data$NP.LRR.Effect)
+abline(lm(Data$NP.LRR~ Data$logDIN_ug_L))
+
+
+```
+
+### e.) TN
+
+```{r}
+
+#Nitrogen
+N_TNMod <- rma.mv(N.LRR.Effect, N.LRR.Variance, random = ~ 1 | Ref, mods= ~logTN_mg_L, data=Data)
+N_TNMod
+N_TNMod_null <- rma.mv(N.LRR.Effect, N.LRR.Variance, random = ~ 1 | Ref, data=Data)
+N_TNMod_null
+
+N_TNFit=fitted(N_TNMod)
+N_TNResid=resid(N_TNMod)
+qqplot(N_TNFit, NAmres)
+plot(Data$logTN_mg_L, Data$N.LRR.Effect)
+abline(lm(Data$N.LRR.Effect~ Data$logTN_mg_L))
+
+#Phosphorus
+P_TNMod <- rma.mv(P.LRR.Effect, P.LRR.Variance, random = ~ 1 | Ref, mods= ~logTN_mg_L, data=Data)
+P_TNMod
+P_TNMod_null <- rma.mv(P.LRR.Effect, P.LRR.Variance, random = ~ 1 | Ref, data=Data)
+P_TNMod_null
+
+P_TNFit=fitted(P_TNMod)
+P_TNResid=resid(P_TNMod)
+qqplot(P_TNFit, NAmres)
+plot(Data$logTN_mg_L, Data$P.LRR.Effect)
+abline(lm(Data$P.LRR.Effect~ Data$logTN_mg_L))
+
+#Nitrogen + Phosphorus
+NP_TNMod <- rma.mv(NP.LRR, NP.LRR.Variance, random = ~ 1 | Ref, mods= ~logTN_mg_L, data=Data)
+NP_TNMod
+NP_TNMod_null <- rma.mv(NP.LRR, NP.LRR.Variance, random = ~ 1 | Ref, data=Data)
+NP_TNMod_null
+
+NP_TNFit=fitted(NP_TNMod)
+NP_TNResid=resid(NP_TNMod)
+qqNPlot(NP_TNFit, NAmres)
+NPlot(Data$logTN_mg_L, Data$NP.LRR.Effect)
+abline(lm(Data$NP.LRR~ Data$logTN_mg_L))
+
+
+```
+
+### f.) TP
+
+```{r}
+
+#Nitrogen
+N_TPMod <- rma.mv(N.LRR.Effect, N.LRR.Variance, random = ~ 1 | Ref, mods= ~logTP_ug_L, data=Data)
+N_TPMod
+N_TPMod_null <- rma.mv(N.LRR.Effect, N.LRR.Variance, random = ~ 1 | Ref, data=Data)
+N_TPMod_null
+
+N_TPFit=fitted(N_TPMod)
+N_TPResid=resid(N_TPMod)
+qqplot(N_TPFit, NAmres)
+plot(Data$logTP_ug_L, Data$N.LRR.Effect)
+abline(lm(Data$N.LRR.Effect~ Data$logTP_ug_L))
+
+#Phosphorus
+P_TPMod <- rma.mv(P.LRR.Effect, P.LRR.Variance, random = ~ 1 | Ref, mods= ~logTP_ug_L, data=Data)
+P_TPMod
+P_TPMod_null <- rma.mv(P.LRR.Effect, P.LRR.Variance, random = ~ 1 | Ref, data=Data)
+P_TPMod_null
+
+P_TPFit=fitted(P_TPMod)
+P_TPResid=resid(P_TPMod)
+qqplot(P_TPFit, NAmres)
+plot(Data$logTP_ug_L, Data$P.LRR.Effect)
+abline(lm(Data$P.LRR.Effect~ Data$logTP_ug_L))
+
+#Nitrogen + Phosphorus
+NP_TPMod <- rma.mv(NP.LRR, NP.LRR.Variance, random = ~ 1 | Ref, mods= ~logTP_ug_L, data=Data)
+NP_TPMod
+NP_TPMod_null <- rma.mv(NP.LRR, NP.LRR.Variance, random = ~ 1 | Ref, data=Data)
+NP_TPMod_null
+
+NP_TPFit=fitted(NP_TPMod)
+NP_TPResid=resid(NP_TPMod)
+qqNPlot(NP_TPFit, NAmres)
+NPlot(Data$logTP_ug_L, Data$NP.LRR.Effect)
+abline(lm(Data$NP.LRR~ Data$logTP_ug_L))
+
+
+```
+
+### g.) NO3_SRP_Ratio
+
+```{r}
+
+#Nitrogen
+N_NO3_SRP_RatioMod <- rma.mv(N.LRR.Effect, N.LRR.Variance, random = ~ 1 | Ref, mods= ~NO3_SRP_Ratio, data=Data)
+N_NO3_SRP_RatioMod
+N_NO3_SRP_RatioMod_null <- rma.mv(N.LRR.Effect, N.LRR.Variance, random = ~ 1 | Ref, data=Data)
+N_NO3_SRP_RatioMod_null
+
+N_NO3_SRP_RatioFit=fitted(N_NO3_SRP_RatioMod)
+N_NO3_SRP_RatioResid=resid(N_NO3_SRP_RatioMod)
+qqplot(N_NO3_SRP_RatioFit, NAmres)
+plot(Data$NO3_SRP_Ratio, Data$N.LRR.Effect)
+abline(lm(Data$N.LRR.Effect~ Data$NO3_SRP_Ratio))
+
+#Phosphorus
+P_NO3_SRP_RatioMod <- rma.mv(P.LRR.Effect, P.LRR.Variance, random = ~ 1 | Ref, mods= ~NO3_SRP_Ratio, data=Data)
+P_NO3_SRP_RatioMod
+P_NO3_SRP_RatioMod_null <- rma.mv(P.LRR.Effect, P.LRR.Variance, random = ~ 1 | Ref, data=Data)
+P_NO3_SRP_RatioMod_null
+
+P_NO3_SRP_RatioFit=fitted(P_NO3_SRP_RatioMod)
+P_NO3_SRP_RatioResid=resid(P_NO3_SRP_RatioMod)
+qqplot(P_NO3_SRP_RatioFit, NAmres)
+plot(Data$NO3_SRP_Ratio, Data$P.LRR.Effect)
+abline(lm(Data$P.LRR.Effect~ Data$NO3_SRP_Ratio))
+
+#Nitrogen + Phosphorus
+NP_NO3_SRP_RatioMod <- rma.mv(NP.LRR, NP.LRR.Variance, random = ~ 1 | Ref, mods= ~NO3_SRP_Ratio, data=Data)
+NP_NO3_SRP_RatioMod
+NP_NO3_SRP_RatioMod_null <- rma.mv(NP.LRR, NP.LRR.Variance, random = ~ 1 | Ref, data=Data)
+NP_NO3_SRP_RatioMod_null
+
+NP_NO3_SRP_RatioFit=fitted(NP_NO3_SRP_RatioMod)
+NP_NO3_SRP_RatioResid=resid(NP_NO3_SRP_RatioMod)
+qqNPlot(NP_NO3_SRP_RatioFit, NAmres)
+NPlot(Data$NO3_SRP_Ratio, Data$NP.LRR.Effect)
+abline(lm(Data$NP.LRR~ Data$NO3_SRP_Ratio))
+
+
+```
