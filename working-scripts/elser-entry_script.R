@@ -19,6 +19,9 @@ elser_manual_df = data.frame(author =author_list, citation = citation_list,
 #Create a database for manual entry of control means for backing out of response ratio
 #Do not run this without 
 ##write.csv(elser_manual_df, file = './raw-data/Elser-et-al-2007_Global-N-P-limitation/data/elser_manual.csv', row.names = F)
+
+### Data clean up of raw Elser 2007 data ####
+
 rm(list = ls())
 
 elsie_study_df = read.csv(file ="./raw-data/Elser-et-al-2007_Global-N-P-limitation/data/raw-data/ELSIE_study_sheet.csv",T)
@@ -44,3 +47,6 @@ elsie_df = elsie_study_df %>% inner_join(elsie_response_df) %>% filter(system %i
 
 elsie_df = elsie_df %>% bind_rows(elsie_ratios_df)
 write.table(elsie_df, file = "./raw-data/Elser-et-al-2007_Global-N-P-limitation/data/elsie_df.csv", row.names = FALSE, sep = ",")
+
+
+#### End raw cleanup ###
