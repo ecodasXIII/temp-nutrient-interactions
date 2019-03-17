@@ -19,3 +19,28 @@ elser_manual_df = data.frame(author =author_list, citation = citation_list,
 #Create a database for manual entry of control means for backing out of response ratio
 #Do not run this without 
 ##write.csv(elser_manual_df, file = './raw-data/Elser-et-al-2007_Global-N-P-limitation/data/elser_manual.csv', row.names = F)
+rm(list = ls())
+
+elsie_study_df = read.csv(file ="./raw-data/Elser-et-al-2007_Global-N-P-limitation/data/raw-data/ELSIE_study_sheet.csv",T)
+elsie_study_df = elsie_study_df %>% select(c(ID_study, system, latitud, longitud, n_avail, n_total, p_avail, p_total, c_total, light, temp, duration, vol))
+elsie_study_df = elsie_study_df %>% mutate_at(vars(latitud:vol), as.character) %>% mutate_at(vars(latitud:vol),str_replace_all,pattern = "\\.$", replacement = "NA")
+elsie_study_df[ elsie_study_df == "NA" ] <- NA
+elsie_study_df = elsie_study_df %>% filter(!is.na(temp))
+
+elsie_response_df = read.csv(file ="./raw-data/Elser-et-al-2007_Global-N-P-limitation/data/raw-data/ELSIE_response_sheet.csv",T)
+elsie_response_df = elsie_response_df %>% select(c(ID_study, tax_resp, tax_resp_mn, tax_resp_sd, tax_resp_reps,
+                                                   tax_resp_cat, tax_resp_typ, n_add, p_add, n_rate, p_rate))
+elsie_response_df = elsie_response_df %>% mutate_at(vars(tax_resp_mn:p_rate), as.character) %>% mutate_at(vars(tax_resp_mn:p_rate),str_replace_all,pattern = "\\.$", replacement = "NA")
+elsie_response_df[elsie_response_df == "NA"] <- NA
+
+elsie_ratios_df = read.csv(file ="./raw-data/Elser-et-al-2007_Global-N-P-limitation/data/raw-data/ELSIE_ratios_sheet.csv",T)
+elsie_ratios_df = elsie_ratios_df %>% select(c(ID_study, tax_resp, tax_resp_mn, tax_resp_sd, tax_resp_reps, tax_resp_cat,
+                                               tax_resp_typ, tax_resp_unit, n_add, p_add, n_rate, p_rate, fert_unit))
+elsie_ratios_df = elsie_ratios_df %>% mutate_at(vars(tax_resp_mn:fert_unit), as.character) %>% mutate_at(vars(tax_resp_mn:fert_unit), str_replace_all, pattern = "\\.$", replacement = "NA")
+elsie_ratios_df[elsie_ratios_df == "NA"] <- NA
+
+###
+elsie_df = elsie_study_df %>% inner_join(elsie_response_df) %>% filter(system %in% c("freshwater","marine"))
+
+elsie_df = elsie_df %>% bind_rows(elsie_ratios_df)
+write.table(elsie_df, file = "./raw-data/Elser-et-al-2007_Global-N-P-limitation/data/elsie_df.csv", row.names = FALSE, sep = ",")

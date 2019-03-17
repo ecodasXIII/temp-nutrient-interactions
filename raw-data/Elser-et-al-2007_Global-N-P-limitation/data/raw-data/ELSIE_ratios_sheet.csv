@@ -1,0 +1,498 @@
+ID_response,ID_study,tax_man,fd_ch_trt,tax_man_pres,tax_man_cnt,tax_man_cnt_unit,tax_man_biom,tax_man_biom_unit,tax_man_div,tax_man_div_unit,tax_resp,tax_resp_mn,tax_resp_sd,tax_resp_reps,tax_resp_cat,tax_resp_typ,tax_resp_unit,repeat_meas,n_add,p_add,other1_add,other2_add,lightman,n_rate,p_rate,other_rate,other2_rate,light_rate,other1_typ,other2_typ,elements,fert_unit,Source,note_resp
+11103,JJE001,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11104,JJE001,.,1,.,.,.,.,.,.,.,phytoplankton,1.2,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11105,JJE001,.,1,.,.,.,.,.,.,.,phytoplankton,1.4,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11106,JJE001,.,1,.,.,.,.,.,.,.,phytoplankton,1.45,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11107,JJE002,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11108,JJE002,.,1,.,.,.,.,.,.,.,phytoplankton,2,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11109,JJE002,.,1,.,.,.,.,.,.,.,phytoplankton,2.3,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11110,JJE002,.,1,.,.,.,.,.,.,.,phytoplankton,5.8,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11111,JJE003,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11112,JJE003,.,1,.,.,.,.,.,.,.,phytoplankton,1.85,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11113,JJE003,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11114,JJE003,.,1,.,.,.,.,.,.,.,phytoplankton,2.47,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11115,JJE004,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11116,JJE004,.,1,.,.,.,.,.,.,.,phytoplankton,1.61,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11117,JJE004,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11118,JJE004,.,1,.,.,.,.,.,.,.,phytoplankton,2.14,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11119,JJE005,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11120,JJE005,.,1,.,.,.,.,.,.,.,phytoplankton,1.55,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11121,JJE005,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11122,JJE005,.,1,.,.,.,.,.,.,.,phytoplankton,1.75,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11123,JJE006,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11124,JJE006,.,1,.,.,.,.,.,.,.,phytoplankton,1.25,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11125,JJE006,.,1,.,.,.,.,.,.,.,phytoplankton,1.19,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11126,JJE006,.,1,.,.,.,.,.,.,.,phytoplankton,5.8,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11127,JJE007,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11128,JJE007,.,1,.,.,.,.,.,.,.,phytoplankton,0.87,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11129,JJE007,.,1,.,.,.,.,.,.,.,phytoplankton,1.22,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11130,JJE007,.,1,.,.,.,.,.,.,.,phytoplankton,4.8,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11131,JJE008,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11132,JJE008,.,1,.,.,.,.,.,.,.,phytoplankton,1.07,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11133,JJE008,.,1,.,.,.,.,.,.,.,phytoplankton,1.7,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11134,JJE008,.,1,.,.,.,.,.,.,.,phytoplankton,4.6,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11135,JJE009,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11136,JJE009,.,1,.,.,.,.,.,.,.,phytoplankton,1.14,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11137,JJE009,.,1,.,.,.,.,.,.,.,phytoplankton,1.29,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11138,JJE009,.,1,.,.,.,.,.,.,.,phytoplankton,1.97,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11139,JJE010,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11140,JJE010,.,1,.,.,.,.,.,.,.,phytoplankton,1.09,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11141,JJE010,.,1,.,.,.,.,.,.,.,phytoplankton,1.09,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11142,JJE010,.,1,.,.,.,.,.,.,.,phytoplankton,2.2,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11143,JJE011,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11144,JJE011,.,1,.,.,.,.,.,.,.,phytoplankton,3.03,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11145,JJE011,.,1,.,.,.,.,.,.,.,phytoplankton,2.77,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11146,JJE011,.,1,.,.,.,.,.,.,.,phytoplankton,5.95,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11147,JJE012,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11148,JJE012,.,1,.,.,.,.,.,.,.,phytoplankton,2,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11149,JJE012,.,1,.,.,.,.,.,.,.,phytoplankton,1.14,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11150,JJE012,.,1,.,.,.,.,.,.,.,phytoplankton,2.84,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11151,JJE013,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11152,JJE013,.,1,.,.,.,.,.,.,.,phytoplankton,1.4,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11153,JJE013,.,1,.,.,.,.,.,.,.,phytoplankton,6.6,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11154,JJE014,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11155,JJE014,.,1,.,.,.,.,.,.,.,phytoplankton,2.26,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11156,JJE014,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11157,JJE014,.,1,.,.,.,.,.,.,.,phytoplankton,2.26,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11158,JJE015,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11159,JJE015,.,1,.,.,.,.,.,.,.,phytoplankton,1.07,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11160,JJE015,.,1,.,.,.,.,.,.,.,phytoplankton,1.5,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11161,JJE015,.,1,.,.,.,.,.,.,.,phytoplankton,1.8,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11162,JJE016,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11163,JJE016,.,1,.,.,.,.,.,.,.,phytoplankton,1.03,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11164,JJE016,.,1,.,.,.,.,.,.,.,phytoplankton,1.21,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11165,JJE016,.,1,.,.,.,.,.,.,.,phytoplankton,1.34,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11166,JJE017,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11167,JJE017,.,1,.,.,.,.,.,.,.,phytoplankton,1.36,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11168,JJE017,.,1,.,.,.,.,.,.,.,phytoplankton,1.68,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11169,JJE017,.,1,.,.,.,.,.,.,.,phytoplankton,2.49,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11170,JJE018,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11171,JJE018,.,1,.,.,.,.,.,.,.,phytoplankton,1.25,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11172,JJE018,.,1,.,.,.,.,.,.,.,phytoplankton,2.6,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11173,JJE018,.,1,.,.,.,.,.,.,.,phytoplankton,15.1,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11174,JJE019,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11175,JJE019,.,1,.,.,.,.,.,.,.,phytoplankton,1,1,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11176,JJE019,.,1,.,.,.,.,.,.,.,phytoplankton,3.32,0,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11177,JJE020,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11178,JJE020,.,1,.,.,.,.,.,.,.,phytoplankton,4.5,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11179,JJE020,.,1,.,.,.,.,.,.,.,phytoplankton,6,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11180,JJE021,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11181,JJE021,.,1,.,.,.,.,.,.,.,phytoplankton,1.1,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11182,JJE021,.,1,.,.,.,.,.,.,.,phytoplankton,15,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11183,JJE022,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11184,JJE022,.,1,.,.,.,.,.,.,.,phytoplankton,5.15,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11185,JJE022,.,1,.,.,.,.,.,.,.,phytoplankton,1.62,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11186,JJE022,.,1,.,.,.,.,.,.,.,phytoplankton,3.6,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11187,JJE023,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11188,JJE023,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11189,JJE023,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11190,JJE023,.,1,.,.,.,.,.,.,.,phytoplankton,1.4,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11191,JJE024,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11192,JJE024,.,1,.,.,.,.,.,.,.,phytoplankton,7,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11193,JJE024,.,1,.,.,.,.,.,.,.,phytoplankton,3.9,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11194,JJE024,.,1,.,.,.,.,.,.,.,phytoplankton,19.9,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11195,JJE025,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11196,JJE025,.,1,.,.,.,.,.,.,.,phytoplankton,1.1,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11197,JJE025,.,1,.,.,.,.,.,.,.,phytoplankton,6,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11198,JJE025,.,1,.,.,.,.,.,.,.,phytoplankton,10.75,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11199,JJE026,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11200,JJE026,.,1,.,.,.,.,.,.,.,phytoplankton,5,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11201,JJE026,.,1,.,.,.,.,.,.,.,phytoplankton,2.67,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11202,JJE026,.,1,.,.,.,.,.,.,.,phytoplankton,7.33,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11203,JJE027,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11204,JJE027,.,1,.,.,.,.,.,.,.,phytoplankton,2,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11205,JJE027,.,1,.,.,.,.,.,.,.,phytoplankton,2,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11206,JJE027,.,1,.,.,.,.,.,.,.,phytoplankton,7.5,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11207,JJE028,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11208,JJE028,.,1,.,.,.,.,.,.,.,phytoplankton,7.94,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11209,JJE028,.,1,.,.,.,.,.,.,.,phytoplankton,1.59,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11210,JJE028,.,1,.,.,.,.,.,.,.,phytoplankton,8.23,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11211,JJE029,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11212,JJE029,.,1,.,.,.,.,.,.,.,phytoplankton,1.61,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11213,JJE029,.,1,.,.,.,.,.,.,.,phytoplankton,0.98,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11214,JJE029,.,1,.,.,.,.,.,.,.,phytoplankton,1.73,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11215,JJE030,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11216,JJE030,.,1,.,.,.,.,.,.,.,phytoplankton,1.26,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11217,JJE030,.,1,.,.,.,.,.,.,.,phytoplankton,1.26,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11218,JJE030,.,1,.,.,.,.,.,.,.,phytoplankton,1.86,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11219,JJE031,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11220,JJE031,.,1,.,.,.,.,.,.,.,phytoplankton,1.29,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11221,JJE031,.,1,.,.,.,.,.,.,.,phytoplankton,0.95,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11222,JJE031,.,1,.,.,.,.,.,.,.,phytoplankton,2.06,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11223,JJE032,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11224,JJE032,.,1,.,.,.,.,.,.,.,phytoplankton,1.7,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11225,JJE032,.,1,.,.,.,.,.,.,.,phytoplankton,1.3,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11226,JJE032,.,1,.,.,.,.,.,.,.,phytoplankton,2.1,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11227,JJE033,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11228,JJE033,.,1,.,.,.,.,.,.,.,phytoplankton,0.98,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11229,JJE033,.,1,.,.,.,.,.,.,.,phytoplankton,1.02,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11230,JJE033,.,1,.,.,.,.,.,.,.,phytoplankton,1.06,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11231,JJE034,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11232,JJE034,.,1,.,.,.,.,.,.,.,phytoplankton,1.48,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11233,JJE034,.,1,.,.,.,.,.,.,.,phytoplankton,1.3,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11234,JJE034,.,1,.,.,.,.,.,.,.,phytoplankton,1.4,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11235,JJE035,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11236,JJE035,.,1,.,.,.,.,.,.,.,phytoplankton,2.75,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11237,JJE035,.,1,.,.,.,.,.,.,.,phytoplankton,0.93,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11238,JJE035,.,1,.,.,.,.,.,.,.,phytoplankton,2.32,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11239,JJE036,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11240,JJE036,.,1,.,.,.,.,.,.,.,phytoplankton,2.28,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11241,JJE036,.,1,.,.,.,.,.,.,.,phytoplankton,2.28,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11242,JJE037,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11243,JJE037,.,1,.,.,.,.,.,.,.,phytoplankton,2.67,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11244,JJE037,.,1,.,.,.,.,.,.,.,phytoplankton,1.44,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11245,JJE037,.,1,.,.,.,.,.,.,.,phytoplankton,1.89,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11246,JJE038,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11247,JJE038,.,1,.,.,.,.,.,.,.,phytoplankton,1.2,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11248,JJE038,.,1,.,.,.,.,.,.,.,phytoplankton,1.8,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11249,JJE038,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11250,JJE039,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11251,JJE039,.,1,.,.,.,.,.,.,.,phytoplankton,3.87,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11252,JJE039,.,1,.,.,.,.,.,.,.,phytoplankton,8.1,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11253,JJE039,.,1,.,.,.,.,.,.,.,phytoplankton,5.5,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11254,JJE040,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11255,JJE040,.,1,.,.,.,.,.,.,.,phytoplankton,1.12,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11256,JJE040,.,1,.,.,.,.,.,.,.,phytoplankton,0.82,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11257,JJE040,.,1,.,.,.,.,.,.,.,phytoplankton,6.07,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11258,JJE041,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11259,JJE041,.,1,.,.,.,.,.,.,.,phytoplankton,3.17,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11260,JJE041,.,1,.,.,.,.,.,.,.,phytoplankton,2.05,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11261,JJE041,.,1,.,.,.,.,.,.,.,phytoplankton,4.41,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11262,JJE042,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11263,JJE042,.,1,.,.,.,.,.,.,.,phytoplankton,1.2,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11264,JJE042,.,1,.,.,.,.,.,.,.,phytoplankton,2.36,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11265,JJE042,.,1,.,.,.,.,.,.,.,phytoplankton,1.62,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11266,JJE043,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11267,JJE043,.,1,.,.,.,.,.,.,.,phytoplankton,1.78,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11268,JJE043,.,1,.,.,.,.,.,.,.,phytoplankton,0.82,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11269,JJE043,.,1,.,.,.,.,.,.,.,phytoplankton,3.42,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11270,JJE044,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11271,JJE044,.,1,.,.,.,.,.,.,.,phytoplankton,2.1,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11272,JJE044,.,1,.,.,.,.,.,.,.,phytoplankton,3.7,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11273,JJE044,.,1,.,.,.,.,.,.,.,phytoplankton,3,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11274,JJE045,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11275,JJE045,.,1,.,.,.,.,.,.,.,phytoplankton,1.51,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11276,JJE045,.,1,.,.,.,.,.,.,.,phytoplankton,1.23,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11277,JJE045,.,1,.,.,.,.,.,.,.,phytoplankton,2.65,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11278,JJE046,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11279,JJE046,.,1,.,.,.,.,.,.,.,phytoplankton,1.15,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11280,JJE046,.,1,.,.,.,.,.,.,.,phytoplankton,2.26,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11281,JJE046,.,1,.,.,.,.,.,.,.,phytoplankton,10.6,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11282,JJE047,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11283,JJE047,.,1,.,.,.,.,.,.,.,phytoplankton,1.15,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11284,JJE047,.,1,.,.,.,.,.,.,.,phytoplankton,1.25,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11285,JJE047,.,1,.,.,.,.,.,.,.,phytoplankton,2.31,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11286,JJE048,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11287,JJE048,.,1,.,.,.,.,.,.,.,phytoplankton,1.15,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11288,JJE048,.,1,.,.,.,.,.,.,.,phytoplankton,1.07,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11289,JJE049,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11290,JJE049,.,1,.,.,.,.,.,.,.,phytoplankton,1.02,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11291,JJE049,.,1,.,.,.,.,.,.,.,phytoplankton,1.42,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11292,JJE049,.,1,.,.,.,.,.,.,.,phytoplankton,1.69,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11293,JJE050,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11294,JJE050,.,1,.,.,.,.,.,.,.,phytoplankton,2.31,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11295,JJE050,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11296,JJE050,.,1,.,.,.,.,.,.,.,phytoplankton,3.49,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11297,JJE051,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11298,JJE051,.,1,.,.,.,.,.,.,.,phytoplankton,1.7,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11299,JJE051,.,1,.,.,.,.,.,.,.,phytoplankton,1.07,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11300,JJE051,.,1,.,.,.,.,.,.,.,phytoplankton,4.05,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11301,JJE052,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11302,JJE052,.,1,.,.,.,.,.,.,.,phytoplankton,1.22,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11303,JJE052,.,1,.,.,.,.,.,.,.,phytoplankton,1.71,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11304,JJE052,.,1,.,.,.,.,.,.,.,phytoplankton,3.55,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11305,JJE053,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11306,JJE053,.,1,.,.,.,.,.,.,.,phytoplankton,1.1,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11307,JJE053,.,1,.,.,.,.,.,.,.,phytoplankton,2.48,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11308,JJE053,.,1,.,.,.,.,.,.,.,phytoplankton,9.84,.,.,biomass,JIM WILL FIX,relative to control,0,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11309,JJE054,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,JIM WILL FIX,relative to control,0,0,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11310,JJE054,.,1,.,.,.,.,.,.,.,phytoplankton,0.74,.,.,biomass,JIM WILL FIX,relative to control,0,0,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11311,JJE054,.,1,.,.,.,.,.,.,.,phytoplankton,1.73,.,.,biomass,JIM WILL FIX,relative to control,0,1,0,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+11312,JJE094,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,14C fixation,relative to control,0,0,0,.,.,.,0,0,.,.,.,.,.,.,microM,Table 1,.
+11313,JJE094,.,1,.,.,.,.,.,.,.,phytoplankton,1.05,.,.,biomass,14C fixation,relative to control,0,1,0,.,.,.,20,0,.,.,.,.,.,.,microM,Table 1,.
+11314,JJE094,.,1,.,.,.,.,.,.,.,phytoplankton,1.38,.,.,biomass,14C fixation,relative to control,0,0,1,.,.,.,0,2,.,.,.,.,.,.,microM,Table 1,.
+11315,JJE094,.,1,.,.,.,.,.,.,.,phytoplankton,1.32,.,.,biomass,14C fixation,relative to control,0,1,1,.,.,.,20,2,.,.,.,.,.,.,microM,Table 1,.
+11316,JJE095,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,14C fixation,relative to control,0,0,0,.,.,.,0,0,.,.,.,.,.,.,microM,Table 1,.
+11317,JJE095,.,1,.,.,.,.,.,.,.,phytoplankton,0.98,.,.,biomass,14C fixation,relative to control,0,1,0,.,.,.,20,0,.,.,.,.,.,.,microM,Table 1,.
+11318,JJE095,.,1,.,.,.,.,.,.,.,phytoplankton,1.22,.,.,biomass,14C fixation,relative to control,0,0,1,.,.,.,0,2,.,.,.,.,.,.,microM,Table 1,.
+11319,JJE095,.,1,.,.,.,.,.,.,.,phytoplankton,1.2,.,.,biomass,14C fixation,relative to control,0,1,1,.,.,.,20,2,.,.,.,.,.,.,microM,Table 1,.
+11320,JJE096,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,14C fixation,relative to control,0,0,0,.,.,.,0,0,.,.,.,.,.,.,microM,Table 1,.
+11321,JJE096,.,1,.,.,.,.,.,.,.,phytoplankton,0.95,.,.,biomass,14C fixation,relative to control,0,1,0,.,.,.,20,0,.,.,.,.,.,.,microM,Table 1,.
+11322,JJE096,.,1,.,.,.,.,.,.,.,phytoplankton,1.42,.,.,biomass,14C fixation,relative to control,0,0,1,.,.,.,0,2,.,.,.,.,.,.,microM,Table 1,.
+11323,JJE096,.,1,.,.,.,.,.,.,.,phytoplankton,1.3,.,.,biomass,14C fixation,relative to control,0,1,1,.,.,.,20,2,.,.,.,.,.,.,microM,Table 1,.
+11324,JJE097,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,14C fixation,relative to control,0,0,0,.,.,.,0,0,.,.,.,.,.,.,microM,Table 1,.
+11325,JJE097,.,1,.,.,.,.,.,.,.,phytoplankton,1.06,.,.,biomass,14C fixation,relative to control,0,1,0,.,.,.,20,0,.,.,.,.,.,.,microM,Table 1,.
+11326,JJE097,.,1,.,.,.,.,.,.,.,phytoplankton,0.99,.,.,biomass,14C fixation,relative to control,0,0,1,.,.,.,0,2,.,.,.,.,.,.,microM,Table 1,.
+11327,JJE097,.,1,.,.,.,.,.,.,.,phytoplankton,1.19,.,.,biomass,14C fixation,relative to control,0,1,1,.,.,.,20,2,.,.,.,.,.,.,microM,Table 1,.
+11328,JJE098,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,14C fixation,relative to control,0,0,0,.,.,.,0,0,.,.,.,.,.,.,microM,Table 1,.
+11329,JJE098,.,1,.,.,.,.,.,.,.,phytoplankton,1.01,.,.,biomass,14C fixation,relative to control,0,1,0,.,.,.,20,0,.,.,.,.,.,.,microM,Table 1,.
+11330,JJE098,.,1,.,.,.,.,.,.,.,phytoplankton,1.16,.,.,biomass,14C fixation,relative to control,0,0,1,.,.,.,0,2,.,.,.,.,.,.,microM,Table 1,.
+11331,JJE098,.,1,.,.,.,.,.,.,.,phytoplankton,1.15,.,.,biomass,14C fixation,relative to control,0,1,1,.,.,.,20,2,.,.,.,.,.,.,microM,Table 1,.
+11332,JJE099,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,14C fixation,relative to control,0,0,0,.,.,.,0,0,.,.,.,.,.,.,microM,Table 1,.
+11333,JJE099,.,1,.,.,.,.,.,.,.,phytoplankton,1.08,.,.,biomass,14C fixation,relative to control,0,1,0,.,.,.,20,0,.,.,.,.,.,.,microM,Table 1,.
+11334,JJE099,.,1,.,.,.,.,.,.,.,phytoplankton,1.05,.,.,biomass,14C fixation,relative to control,0,0,1,.,.,.,0,2,.,.,.,.,.,.,microM,Table 1,.
+11335,JJE099,.,1,.,.,.,.,.,.,.,phytoplankton,1.47,.,.,biomass,14C fixation,relative to control,0,1,1,.,.,.,20,2,.,.,.,.,.,.,microM,Table 1,.
+11336,JJE100,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,14C fixation,relative to control,0,0,0,.,.,.,0,0,.,.,.,.,.,.,microM,Table 1,.
+11337,JJE100,.,1,.,.,.,.,.,.,.,phytoplankton,0.89,.,.,biomass,14C fixation,relative to control,0,1,0,.,.,.,20,0,.,.,.,.,.,.,microM,Table 1,.
+11338,JJE100,.,1,.,.,.,.,.,.,.,phytoplankton,0.79,.,.,biomass,14C fixation,relative to control,0,0,1,.,.,.,0,2,.,.,.,.,.,.,microM,Table 1,.
+11339,JJE100,.,1,.,.,.,.,.,.,.,phytoplankton,0.8,.,.,biomass,14C fixation,relative to control,0,1,1,.,.,.,20,2,.,.,.,.,.,.,microM,Table 1,.
+11340,JJE101,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,14C fixation,relative to control,0,0,0,.,.,.,0,0,.,.,.,.,.,.,microM,Table 1,.
+11341,JJE101,.,1,.,.,.,.,.,.,.,phytoplankton,0.73,.,.,biomass,14C fixation,relative to control,0,1,0,.,.,.,20,0,.,.,.,.,.,.,microM,Table 1,.
+11342,JJE101,.,1,.,.,.,.,.,.,.,phytoplankton,1.78,.,.,biomass,14C fixation,relative to control,0,0,1,.,.,.,0,2,.,.,.,.,.,.,microM,Table 1,.
+11343,JJE101,.,1,.,.,.,.,.,.,.,phytoplankton,2.02,.,.,biomass,14C fixation,relative to control,0,1,1,.,.,.,20,2,.,.,.,.,.,.,microM,Table 1,.
+11344,JJE102,.,1,.,.,.,.,.,.,.,phytoplankton,1,.,.,biomass,14C fixation,relative to control,0,0,0,.,.,.,0,0,.,.,.,.,.,.,microM,Table 1,.
+11345,JJE102,.,1,.,.,.,.,.,.,.,phytoplankton,1.04,.,.,biomass,14C fixation,relative to control,0,1,0,.,.,.,20,0,.,.,.,.,.,.,microM,Table 1,.
+11346,JJE102,.,1,.,.,.,.,.,.,.,phytoplankton,1.38,.,.,biomass,14C fixation,relative to control,0,0,1,.,.,.,0,2,.,.,.,.,.,.,microM,Table 1,.
+11347,JJE102,.,1,.,.,.,.,.,.,.,phytoplankton,1.31,.,.,biomass,14C fixation,relative to control,0,1,1,.,.,.,20,2,.,.,.,.,.,.,microM,Table 1,.
+11348,JJE264,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,.,.
+11349,JJE264,.,1,.,.,.,.,.,.,.,phytoplankton,111.111,.,.,biomass,14C fixation,relative to control,0,0,0,1,.,.,0,0,0,.,.,Si,.,.,microM,.,.
+11350,JJE264,.,1,.,.,.,.,.,.,.,phytoplankton,99.537,.,.,biomass,14C fixation,relative to control,0,1,0,0,.,.,0,3.2,0,.,.,Si,.,.,microM,.,.
+11351,JJE264,.,1,.,.,.,.,.,.,.,phytoplankton,97.222,.,.,biomass,chlorophyll,% relative to control,0,1,1,0,.,.,0,3.2,17.8,.,.,Si,.,.,microM,.,.
+11352,JJE264,.,1,.,.,.,.,.,.,.,phytoplankton,125,.,.,biomass,chlorophyll,% relative to control,0,0,1,0,.,.,0,0,17.8,.,.,Si,.,.,microM,.,.
+11353,JJE264,.,1,.,.,.,.,.,.,.,phytoplankton,99.537,.,.,biomass,chlorophyll,% relative to control,0,0,1,1,.,.,0,0,17.8,.,.,Si,.,.,microM,.,.
+11354,JJE264,.,1,.,.,.,.,.,.,.,phytoplankton,90.278,.,.,biomass,chlorophyll,% relative to control,0,1,1,0,.,.,0,3.2,17.8,.,.,Si,.,.,microM,.,.
+11355,JJE264,.,1,.,.,.,.,.,.,.,phytoplankton,99.537,.,.,biomass,chlorophyll,% relative to control,0,1,1,1,.,.,0,3.2,17.8,.,.,Si,.,.,microM,.,.
+11356,JJE265,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,chlorophyll,% relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,.,.
+11357,JJE265,.,1,.,.,.,.,.,.,.,phytoplankton,38.136,.,.,biomass,chlorophyll,% relative to control,0,0,0,1,.,.,0,0,0,.,.,Si,.,.,microM,.,.
+11358,JJE265,.,1,.,.,.,.,.,.,.,phytoplankton,254.237,.,.,biomass,chlorophyll,% relative to control,0,1,0,0,.,.,0,3.2,0,.,.,Si,.,.,microM,.,.
+11359,JJE265,.,1,.,.,.,.,.,.,.,phytoplankton,292.373,.,.,biomass,chlorophyll,% relative to control,0,1,1,0,.,.,0,3.2,17.8,.,.,Si,.,.,microM,.,.
+11360,JJE265,.,1,.,.,.,.,.,.,.,phytoplankton,504.237,.,.,biomass,chlorophyll,% relative to control,0,0,1,0,.,.,0,0,17.8,.,.,Si,.,.,microM,.,.
+11361,JJE265,.,1,.,.,.,.,.,.,.,phytoplankton,521.186,.,.,biomass,chlorophyll,% relative to control,0,0,1,1,.,.,0,0,17.8,.,.,Si,.,.,microM,.,.
+11362,JJE265,.,1,.,.,.,.,.,.,.,phytoplankton,838.983,.,.,biomass,chlorophyll,% relative to control,0,1,1,0,.,.,0,3.2,17.8,.,.,Si,.,.,microM,.,.
+11363,JJE265,.,1,.,.,.,.,.,.,.,phytoplankton,851.695,.,.,biomass,chlorophyll,% relative to control,0,1,1,1,.,.,0,3.2,17.8,.,.,Si,.,.,microM,.,.
+11364,JJE266,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,chlorophyll,% relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,.,.
+11365,JJE266,.,1,.,.,.,.,.,.,.,phytoplankton,74.324,.,.,biomass,chlorophyll,% relative to control,0,0,0,1,.,.,0,0,0,.,.,Si,.,.,microM,.,.
+11366,JJE266,.,1,.,.,.,.,.,.,.,phytoplankton,67.568,.,.,biomass,chlorophyll,% relative to control,0,1,0,0,.,.,0,3.2,0,.,.,Si,.,.,microM,.,.
+11367,JJE266,.,1,.,.,.,.,.,.,.,phytoplankton,85.586,.,.,biomass,chlorophyll,% relative to control,0,1,1,0,.,.,0,3.2,17.8,.,.,Si,.,.,microM,.,.
+11368,JJE266,.,1,.,.,.,.,.,.,.,phytoplankton,114.865,.,.,biomass,chlorophyll,% relative to control,0,0,1,0,.,.,0,0,17.8,.,.,Si,.,.,microM,.,.
+11369,JJE266,.,1,.,.,.,.,.,.,.,phytoplankton,144.144,.,.,biomass,chlorophyll,% relative to control,0,0,1,1,.,.,0,0,17.8,.,.,Si,.,.,microM,.,.
+11370,JJE266,.,1,.,.,.,.,.,.,.,phytoplankton,220.721,.,.,biomass,chlorophyll,% relative to control,0,1,1,0,.,.,0,3.2,17.8,.,.,Si,.,.,microM,.,.
+11371,JJE266,.,1,.,.,.,.,.,.,.,phytoplankton,261.261,.,.,biomass,chlorophyll,% relative to control,0,1,1,1,.,.,0,3.2,17.8,.,.,Si,.,.,microM,.,.
+11372,JJE267,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,chlorophyll,% relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,.,value of 101.67 replaced by 100 to make calculations work
+11373,JJE267,.,1,.,.,.,.,.,.,.,phytoplankton,90.498,.,.,biomass,chlorophyll,% relative to control,0,0,0,1,.,.,0,0,0,.,.,Si,.,.,microM,.,.
+11374,JJE267,.,1,.,.,.,.,.,.,.,phytoplankton,108.597,.,.,biomass,chlorophyll,% relative to control,0,1,0,0,.,.,0,3.2,0,.,.,Si,.,.,microM,.,.
+11375,JJE267,.,1,.,.,.,.,.,.,.,phytoplankton,117.647,.,.,biomass,chlorophyll,% relative to control,0,1,1,0,.,.,0,3.2,17.8,.,.,Si,.,.,microM,.,.
+11376,JJE267,.,1,.,.,.,.,.,.,.,phytoplankton,176.471,.,.,biomass,chlorophyll,% relative to control,0,0,1,0,.,.,0,0,17.8,.,.,Si,.,.,microM,.,.
+11377,JJE267,.,1,.,.,.,.,.,.,.,phytoplankton,242.081,.,.,biomass,chlorophyll,% relative to control,0,0,1,1,.,.,0,0,17.8,.,.,Si,.,.,microM,.,.
+11378,JJE267,.,1,.,.,.,.,.,.,.,phytoplankton,382.353,.,.,biomass,chlorophyll,% relative to control,0,1,1,0,.,.,0,3.2,17.8,.,.,Si,.,.,microM,.,.
+11379,JJE267,.,1,.,.,.,.,.,.,.,phytoplankton,355.204,.,.,biomass,chlorophyll,% relative to control,0,1,1,1,.,.,0,3.2,17.8,.,.,Si,.,.,microM,.,.
+11380,JJE330,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11381,JJE330,.,1,.,.,.,.,.,.,.,phytoplankton,130.645,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11382,JJE330,.,1,.,.,.,.,.,.,.,phytoplankton,117.073,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11383,JJE330,.,1,.,.,.,.,.,.,.,phytoplankton,135.484,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11384,JJE331,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11385,JJE331,.,1,.,.,.,.,.,.,.,phytoplankton,91.935,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11386,JJE331,.,1,.,.,.,.,.,.,.,phytoplankton,109.756,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11387,JJE331,.,1,.,.,.,.,.,.,.,phytoplankton,106.452,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11388,JJE332,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11389,JJE332,.,1,.,.,.,.,.,.,.,phytoplankton,101.613,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11390,JJE332,.,1,.,.,.,.,.,.,.,phytoplankton,136.585,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11391,JJE332,.,1,.,.,.,.,.,.,.,phytoplankton,137.903,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11392,JJE333,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11393,JJE333,.,1,.,.,.,.,.,.,.,phytoplankton,113.71,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11394,JJE333,.,1,.,.,.,.,.,.,.,phytoplankton,148.78,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11395,JJE333,.,1,.,.,.,.,.,.,.,phytoplankton,150,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11396,JJE334,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11397,JJE334,.,1,.,.,.,.,.,.,.,phytoplankton,101.613,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11398,JJE334,.,1,.,.,.,.,.,.,.,phytoplankton,97.561,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11399,JJE334,.,1,.,.,.,.,.,.,.,phytoplankton,106.452,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11400,JJE335,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11401,JJE335,.,1,.,.,.,.,.,.,.,phytoplankton,108.871,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11402,JJE335,.,1,.,.,.,.,.,.,.,phytoplankton,117.073,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11403,JJE335,.,1,.,.,.,.,.,.,.,phytoplankton,179.032,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11404,JJE336,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11405,JJE336,.,1,.,.,.,.,.,.,.,phytoplankton,99.194,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11406,JJE336,.,1,.,.,.,.,.,.,.,phytoplankton,114.634,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11407,JJE336,.,1,.,.,.,.,.,.,.,phytoplankton,118.548,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11408,JJE337,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11409,JJE337,.,1,.,.,.,.,.,.,.,phytoplankton,99.194,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11410,JJE337,.,1,.,.,.,.,.,.,.,phytoplankton,109.756,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11411,JJE337,.,1,.,.,.,.,.,.,.,phytoplankton,111.29,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11412,JJE338,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11413,JJE338,.,1,.,.,.,.,.,.,.,phytoplankton,94.355,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11414,JJE338,.,1,.,.,.,.,.,.,.,phytoplankton,124.39,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11415,JJE338,.,1,.,.,.,.,.,.,.,phytoplankton,123.387,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11416,JJE339,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11417,JJE339,.,1,.,.,.,.,.,.,.,phytoplankton,101.613,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11418,JJE339,.,1,.,.,.,.,.,.,.,phytoplankton,151.22,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11419,JJE339,.,1,.,.,.,.,.,.,.,phytoplankton,147.581,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11420,JJE340,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11421,JJE340,.,1,.,.,.,.,.,.,.,phytoplankton,111.29,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11422,JJE340,.,1,.,.,.,.,.,.,.,phytoplankton,190.244,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11423,JJE340,.,1,.,.,.,.,.,.,.,phytoplankton,331.452,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11424,JJE341,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11425,JJE341,.,1,.,.,.,.,.,.,.,phytoplankton,104.032,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11426,JJE341,.,1,.,.,.,.,.,.,.,phytoplankton,148.78,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11427,JJE341,.,1,.,.,.,.,.,.,.,phytoplankton,186.29,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11428,JJE342,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11429,JJE342,.,1,.,.,.,.,.,.,.,phytoplankton,99.194,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11430,JJE342,.,1,.,.,.,.,.,.,.,phytoplankton,146.341,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11431,JJE342,.,1,.,.,.,.,.,.,.,phytoplankton,142.742,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11432,JJE343,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11433,JJE343,.,1,.,.,.,.,.,.,.,phytoplankton,101.613,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11434,JJE343,.,1,.,.,.,.,.,.,.,phytoplankton,165.854,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11435,JJE343,.,1,.,.,.,.,.,.,.,phytoplankton,157.258,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11436,JJE344,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11437,JJE344,.,1,.,.,.,.,.,.,.,phytoplankton,96.774,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11438,JJE344,.,1,.,.,.,.,.,.,.,phytoplankton,126.829,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11439,JJE344,.,1,.,.,.,.,.,.,.,phytoplankton,135.484,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11440,JJE345,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11441,JJE345,.,1,.,.,.,.,.,.,.,phytoplankton,106.452,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11442,JJE345,.,1,.,.,.,.,.,.,.,phytoplankton,121.951,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11443,JJE345,.,1,.,.,.,.,.,.,.,phytoplankton,133.065,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11444,JJE346,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11445,JJE346,.,1,.,.,.,.,.,.,.,phytoplankton,99.194,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11446,JJE346,.,1,.,.,.,.,.,.,.,phytoplankton,158.537,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11447,JJE346,.,1,.,.,.,.,.,.,.,phytoplankton,193.548,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11448,JJE347,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11449,JJE347,.,1,.,.,.,.,.,.,.,phytoplankton,101.613,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11450,JJE347,.,1,.,.,.,.,.,.,.,phytoplankton,187.805,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11451,JJE347,.,1,.,.,.,.,.,.,.,phytoplankton,205.645,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11452,JJE348,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11453,JJE348,.,1,.,.,.,.,.,.,.,phytoplankton,99.194,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11454,JJE348,.,1,.,.,.,.,.,.,.,phytoplankton,107.317,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11455,JJE348,.,1,.,.,.,.,.,.,.,phytoplankton,125.806,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11456,JJE349,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11457,JJE349,.,1,.,.,.,.,.,.,.,phytoplankton,96.774,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11458,JJE349,.,1,.,.,.,.,.,.,.,phytoplankton,143.902,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11459,JJE349,.,1,.,.,.,.,.,.,.,phytoplankton,145.161,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11460,JJE350,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11461,JJE350,.,1,.,.,.,.,.,.,.,phytoplankton,104.032,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11462,JJE350,.,1,.,.,.,.,.,.,.,phytoplankton,117.073,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11463,JJE350,.,1,.,.,.,.,.,.,.,phytoplankton,120.968,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11464,JJE351,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11465,JJE351,.,1,.,.,.,.,.,.,.,phytoplankton,96.774,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11466,JJE351,.,1,.,.,.,.,.,.,.,phytoplankton,136.585,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11467,JJE351,.,1,.,.,.,.,.,.,.,phytoplankton,125.806,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11468,JJE352,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11469,JJE352,.,1,.,.,.,.,.,.,.,phytoplankton,96.774,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11470,JJE352,.,1,.,.,.,.,.,.,.,phytoplankton,153.659,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11471,JJE352,.,1,.,.,.,.,.,.,.,phytoplankton,280.645,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11472,JJE353,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11473,JJE353,.,1,.,.,.,.,.,.,.,phytoplankton,99.194,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11474,JJE353,.,1,.,.,.,.,.,.,.,phytoplankton,114.634,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11475,JJE353,.,1,.,.,.,.,.,.,.,phytoplankton,116.129,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11476,JJE354,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11477,JJE354,.,1,.,.,.,.,.,.,.,phytoplankton,101.613,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11478,JJE354,.,1,.,.,.,.,.,.,.,phytoplankton,158.537,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11479,JJE354,.,1,.,.,.,.,.,.,.,phytoplankton,227.419,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11480,JJE355,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11481,JJE355,.,1,.,.,.,.,.,.,.,phytoplankton,99.194,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11482,JJE355,.,1,.,.,.,.,.,.,.,phytoplankton,121.951,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11483,JJE355,.,1,.,.,.,.,.,.,.,phytoplankton,128.226,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11484,JJE356,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11485,JJE356,.,1,.,.,.,.,.,.,.,phytoplankton,96.774,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11486,JJE356,.,1,.,.,.,.,.,.,.,phytoplankton,134.146,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11487,JJE356,.,1,.,.,.,.,.,.,.,phytoplankton,191.129,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11488,JJE357,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11489,JJE357,.,1,.,.,.,.,.,.,.,phytoplankton,111.29,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11490,JJE357,.,1,.,.,.,.,.,.,.,phytoplankton,104.878,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11491,JJE357,.,1,.,.,.,.,.,.,.,phytoplankton,278.226,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11492,JJE358,.,1,.,.,.,.,.,.,.,phytoplankton,100,.,.,biomass,14C fixation,% relative to control,0,0,0,0,.,.,0,0,0,.,.,.,.,.,microM,.,.
+11493,JJE358,.,1,.,.,.,.,.,.,.,phytoplankton,99.194,.,.,biomass,14C fixation,% relative to control,0,1,0,0,.,.,1.428571429,0,0,.,.,.,.,.,microM,.,.
+11494,JJE358,.,1,.,.,.,.,.,.,.,phytoplankton,109.756,.,.,biomass,14C fixation,% relative to control,0,0,1,0,.,.,0,0.322580645,0,.,.,.,.,.,microM,.,.
+11495,JJE358,.,1,.,.,.,.,.,.,.,phytoplankton,150,.,.,biomass,14C fixation,% relative to control,0,1,1,0,.,.,1.428571429,0.322580645,0,.,.,.,.,.,microM,.,.
+11496,MEB118,.,1,.,.,.,.,.,.,.,Phytoplankton,100,0,3,biomass,chlorophyll,% relative to control,0,0,0,.,.,.,0,0,.,.,.,.,.,.,microM,Fig 2,.
+11497,MEB118,.,1,.,.,.,.,.,.,.,Phytoplankton,96.0526,5.2634,3,biomass,chlorophyll,% relative to control,0,1,0,.,.,.,200,0,.,.,.,.,.,NO,microM,Fig 2,.
+11498,MEB118,.,1,.,.,.,.,.,.,.,Phytoplankton,100,5.263,3,biomass,chlorophyll,% relative to control,0,0,1,.,.,.,0,100,.,.,.,.,.,P,microM,Fig 2,.
+11499,MEB118,.,1,.,.,.,.,.,.,.,Phytoplankton,97.3684,2.6316,3,biomass,chlorophyll,% relative to control,0,1,1,.,.,.,200,100,.,.,.,.,.,NO P,microM,Fig 2,.
+11500,MEB119,.,1,.,.,.,.,.,.,.,Phytoplankton,100,9.375,3,biomass,chlorophyll,% relative to control,0,0,0,.,.,.,0,0,.,.,.,.,.,.,microM,Fig 3,value of 101.25 replaced by 100 to make calculations work
+11501,MEB119,.,1,.,.,.,.,.,.,.,Phytoplankton,142.5,13.125,3,biomass,chlorophyll,% relative to control,0,1,0,.,.,.,200,0,.,.,.,.,.,NO,microM,Fig 3,.
+11502,MEB119,.,1,.,.,.,.,.,.,.,Phytoplankton,97.5,5.625,3,biomass,chlorophyll,% relative to control,0,0,1,.,.,.,0,100,.,.,.,.,.,P,microM,Fig 3,.
+11503,MEB119,.,1,.,.,.,.,.,.,.,Phytoplankton,138.75,3.75,3,biomass,chlorophyll,% relative to control,0,1,1,.,.,.,200,100,.,.,.,.,.,NO P,microM,Fig 3,.
+11504,MEB120,.,1,.,.,.,.,.,.,.,Phytoplankton,100,22.5,3,biomass,chlorophyll,% relative to control,0,0,0,.,.,.,0,0,.,.,.,.,.,.,microM,Fig 3,value of 97.5 replaced by 100 to make calculations work
+11505,MEB120,.,1,.,.,.,.,.,.,.,Phytoplankton,187.5,24.375,3,biomass,chlorophyll,% relative to control,0,1,0,.,.,.,200,0,.,.,.,.,.,NO,microM,Fig 3,.
+11506,MEB120,.,1,.,.,.,.,.,.,.,Phytoplankton,129.375,28.125,3,biomass,chlorophyll,% relative to control,0,0,1,.,.,.,0,100,.,.,.,.,.,P,microM,Fig 3,.
+11507,MEB120,.,1,.,.,.,.,.,.,.,Phytoplankton,129.375,45,3,biomass,chlorophyll,% relative to control,0,1,1,.,.,.,200,100,.,.,.,.,.,NO P,microM,Fig 3,.
+11508,MEB097,.,1,.,.,.,.,.,.,.,Phytoplankton,1,0.012107082,2,biomass,relative growth,chlorophyll ln(Nt/N0)/t relative to control,0,0,0,.,.,.,0,0,.,.,.,.,.,.,microM,Fig 6,.
+11509,MEB097,.,1,.,.,.,.,.,.,.,Phytoplankton,1.010699645,0,2,biomass,relative growth,chlorophyll ln(Nt/N0)/t relative to control,0,1,0,.,.,.,214,0,.,.,.,.,.,NO,microM,Fig 6,.
+11510,MEB097,.,1,.,.,.,.,.,.,.,Phytoplankton,0.920296606,0.024214165,2,biomass,relative growth,chlorophyll ln(Nt/N0)/t relative to control,0,0,1,.,.,.,0,19,.,.,.,.,.,P,microM,Fig 6,.
+11511,MEB097,.,1,.,.,.,.,.,.,.,Phytoplankton,0.907207568,0.028286393,2,biomass,relative growth,chlorophyll ln(Nt/N0)/t relative to control,0,1,1,.,.,.,214,19,.,.,.,.,.,NO P,microM,Fig 6,.
+11512,MEB098,.,1,.,.,.,.,.,.,.,Phytoplankton,1,0.020215476,2,biomass,relative growth,chlorophyll ln(Nt/N0)/t relative to control,0,0,0,.,.,.,0,0,.,.,.,.,.,.,microM,Fig 6,.
+11513,MEB098,.,1,.,.,.,.,.,.,.,Phytoplankton,1.040943005,0.020175171,2,biomass,relative growth,chlorophyll ln(Nt/N0)/t relative to control,0,1,0,.,.,.,214,0,.,.,.,.,.,NO,microM,Fig 6,.
+11514,MEB098,.,1,.,.,.,.,.,.,.,Phytoplankton,1.845622627,0.024175981,2,biomass,relative growth,chlorophyll ln(Nt/N0)/t relative to control,0,0,1,.,.,.,0,19,.,.,.,.,.,P,microM,Fig 6,.
+11515,MEB098,.,1,.,.,.,.,.,.,.,Phytoplankton,1.880499573,0.040354584,2,biomass,relative growth,chlorophyll ln(Nt/N0)/t relative to control,0,1,1,.,.,.,214,19,.,.,.,.,.,NO P,microM,Fig 6,.
+11516,MEB099,.,1,.,.,.,.,.,.,.,Phytoplankton,1,0.012107082,2,biomass,relative growth,chlorophyll ln(Nt/N0)/t relative to control,0,0,0,.,.,.,0,0,.,.,.,.,.,.,microM,Fig 6,.
+11517,MEB099,.,1,.,.,.,.,.,.,.,Phytoplankton,0.992815928,0.016142541,2,biomass,relative growth,chlorophyll ln(Nt/N0)/t relative to control,0,1,0,.,.,.,214,0,.,.,.,.,.,NO,microM,Fig 6,.
+11518,MEB099,.,1,.,.,.,.,.,.,.,Phytoplankton,1.559972958,0.0686035,2,biomass,relative growth,chlorophyll ln(Nt/N0)/t relative to control,0,0,1,.,.,.,0,19,.,.,.,.,.,P,microM,Fig 6,.
+11519,MEB099,.,1,.,.,.,.,.,.,.,Phytoplankton,1.457075326,0.076714015,2,biomass,relative growth,chlorophyll ln(Nt/N0)/t relative to control,0,1,1,.,.,.,214,19,.,.,.,.,.,NO P,microM,Fig 6,.
+11520,MEB100,.,1,.,.,.,.,.,.,.,Phytoplankton,1,0.024214165,2,biomass,relative growth,chlorophyll ln(Nt/N0)/t relative to control,0,0,0,.,.,.,0,0,.,.,.,.,.,.,microM,Fig 6,.
+11521,MEB100,.,1,.,.,.,.,.,.,.,Phytoplankton,0.992721488,0.028249623,2,biomass,relative growth,chlorophyll ln(Nt/N0)/t relative to control,0,1,0,.,.,.,214,0,.,.,.,.,.,NO,microM,Fig 6,.
+11522,MEB100,.,1,.,.,.,.,.,.,.,Phytoplankton,1.07024072,0.036359431,2,biomass,relative growth,chlorophyll ln(Nt/N0)/t relative to control,0,0,1,.,.,.,0,19,.,.,.,.,.,P,microM,Fig 6,.
+11523,MEB100,.,1,.,.,.,.,.,.,.,Phytoplankton,1.305502105,0.036324075,2,biomass,relative growth,chlorophyll ln(Nt/N0)/t relative to control,0,1,1,.,.,.,214,19,.,.,.,.,.,NO P,microM,Fig 6,.
+11524,MEB101,.,1,.,.,.,.,.,.,.,Phytoplankton,1,0.036321247,2,biomass,relative growth,chlorophyll ln(Nt/N0)/t relative to control,0,0,0,.,.,.,0,0,.,.,.,.,.,.,microM,Fig 6,.
+11525,MEB101,.,1,.,.,.,.,.,.,.,Phytoplankton,1.265707428,0.068681282,2,biomass,relative growth,chlorophyll ln(Nt/N0)/t relative to control,0,1,0,.,.,.,214,0,.,.,.,.,.,NO,microM,Fig 6,.
+11526,MEB101,.,1,.,.,.,.,.,.,.,Phytoplankton,0.876070689,0.024250934,2,biomass,relative growth,chlorophyll ln(Nt/N0)/t relative to control,0,0,1,.,.,.,0,19,.,.,.,.,.,P,microM,Fig 6,.
+11527,MEB101,.,1,.,.,.,.,.,.,.,Phytoplankton,1.421173353,0.064608347,2,biomass,relative growth,chlorophyll ln(Nt/N0)/t relative to control,0,1,1,.,.,.,214,19,.,.,.,.,.,NO P,microM,Fig 6,.
+11528,MEB102,.,1,.,.,.,.,.,.,.,Phytoplankton,1,0,2,biomass,relative growth,chlorophyll ln(Nt/N0)/t relative to control,0,0,0,.,.,.,0,0,.,.,.,.,.,.,microM,Fig 6,.
+11529,MEB102,.,1,.,.,.,.,.,.,.,Phytoplankton,0.992561118,0.020215476,2,biomass,relative growth,chlorophyll ln(Nt/N0)/t relative to control,0,1,0,.,.,.,214,0,.,.,.,.,.,NO,microM,Fig 6,.
+11530,MEB102,.,1,.,.,.,.,.,.,.,Phytoplankton,1.059397097,0.028289928,2,biomass,relative growth,chlorophyll ln(Nt/N0)/t relative to control,0,0,1,.,.,.,0,19,.,.,.,.,.,P,microM,Fig 6,.
+11531,MEB102,.,1,.,.,.,.,.,.,.,Phytoplankton,1.076678877,0.020177292,2,biomass,relative growth,chlorophyll ln(Nt/N0)/t relative to control,0,1,1,.,.,.,214,19,.,.,.,.,.,NO P,microM,Fig 6,.
+11532,MEB135,Zooplankton,2,1,.,.,.,.,.,.,Emiliana,1,.,8,biomass,relative growth,relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,Fig. 4,.
+11533,MEB135,Zooplankton,1,0,.,.,.,.,.,.,Emiliana,1.368285,.,8,biomass,relative growth,relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,Fig. 4,.
+11534,MEB135,Zooplankton,2,1,.,.,.,.,.,.,Emiliana,1.922245,.,8,biomass,relative growth,relative to control,0,1,1,1,.,.,4.5,0.3,4,.,.,Si,.,P N Si,microM,Fig. 4,.
+11535,MEB135,Zooplankton,1,0,.,.,.,.,.,.,Emiliana,2.546505,.,8,biomass,relative growth,relative to control,0,1,1,1,.,.,4.5,0.3,4,.,.,Si,.,P N Si,microM,Fig. 4,.
+11536,MEB135,Zooplankton,2,1,.,.,.,.,.,.,Gymnodinium,1,.,8,biomass,relative growth,relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,Fig. 4,.
+11537,MEB135,Zooplankton,1,0,.,.,.,.,.,.,Gymnodinium,1.488372,.,8,biomass,relative growth,relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,Fig. 4,.
+11538,MEB135,Zooplankton,2,1,.,.,.,.,.,.,Gymnodinium,2.209302,.,8,biomass,relative growth,relative to control,0,1,1,1,.,.,4.5,0.3,4,.,.,Si,.,P N Si,microM,Fig. 4,.
+11539,MEB135,Zooplankton,1,0,.,.,.,.,.,.,Gymnodinium,2.348837,.,8,biomass,relative growth,relative to control,0,1,1,1,.,.,4.5,0.3,4,.,.,Si,.,P N Si,microM,Fig. 4,.
+11540,MEB135,Zooplankton,2,1,.,.,.,.,.,.,Dinoflagellates,1,.,8,biomass,relative growth,relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,Fig. 4,.
+11541,MEB135,Zooplankton,1,0,.,.,.,.,.,.,Dinoflagellates,1.619048,.,8,biomass,relative growth,relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,Fig. 4,.
+11542,MEB135,Zooplankton,2,1,.,.,.,.,.,.,Dinoflagellates,1.4285716,.,8,biomass,relative growth,relative to control,0,1,1,1,.,.,4.5,0.3,4,.,.,Si,.,P N Si,microM,Fig. 4,.
+11543,MEB135,Zooplankton,1,0,.,.,.,.,.,.,Dinoflagellates,2.571433,.,8,biomass,relative growth,relative to control,0,1,1,1,.,.,4.5,0.3,4,.,.,Si,.,P N Si,microM,Fig. 4,.
+11544,MEB135,Zooplankton,2,1,.,.,.,.,.,.,Rhodomonas,1,.,8,biomass,relative growth,relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,Fig. 4,.
+11545,MEB135,Zooplankton,1,0,.,.,.,.,.,.,Rhodomonas,1.6870231,.,8,biomass,relative growth,relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,Fig. 4,.
+11546,MEB135,Zooplankton,2,1,.,.,.,.,.,.,Rhodomonas,1.938932,.,8,biomass,relative growth,relative to control,0,1,1,1,.,.,4.5,0.3,4,.,.,Si,.,P N Si,microM,Fig. 4,.
+11547,MEB135,Zooplankton,1,0,.,.,.,.,.,.,Rhodomonas,2.900768,.,8,biomass,relative growth,relative to control,0,1,1,1,.,.,4.5,0.3,4,.,.,Si,.,P N Si,microM,Fig. 4,.
+11548,MEB135,Zooplankton,2,1,.,.,.,.,.,.,Pyramimonas,1,.,8,biomass,relative growth,relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,Fig. 4,.
+11549,MEB135,Zooplankton,1,0,.,.,.,.,.,.,Pyramimonas,1.5543203,.,8,biomass,relative growth,relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,Fig. 4,.
+11550,MEB135,Zooplankton,2,1,.,.,.,.,.,.,Pyramimonas,1.9222453,.,8,biomass,relative growth,relative to control,0,1,1,1,.,.,4.5,0.3,4,.,.,Si,.,P N Si,microM,Fig. 4,.
+11551,MEB135,Zooplankton,1,0,.,.,.,.,.,.,Pyramimonas,2.9185803,.,8,biomass,relative growth,relative to control,0,1,1,1,.,.,4.5,0.3,4,.,.,Si,.,P N Si,microM,Fig. 4,.
+11552,MEB135,Zooplankton,2,1,.,.,.,.,.,.,Thalassiosira,1,.,8,biomass,relative growth,relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,Fig. 4,.
+11553,MEB135,Zooplankton,1,0,.,.,.,.,.,.,Thalassiosira,1.046512,.,8,biomass,relative growth,relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,Fig. 4,.
+11554,MEB135,Zooplankton,2,1,.,.,.,.,.,.,Thalassiosira,1.930233,.,8,biomass,relative growth,relative to control,0,1,1,1,.,.,4.5,0.3,4,.,.,Si,.,P N Si,microM,Fig. 4,.
+11555,MEB135,Zooplankton,1,0,.,.,.,.,.,.,Thalassiosira,2.465117,.,8,biomass,relative growth,relative to control,0,1,1,1,.,.,4.5,0.3,4,.,.,Si,.,P N Si,microM,Fig. 4,.
+11556,MEB135,Zooplankton,2,1,.,.,.,.,.,.,Leptocylindrus,1,.,8,biomass,relative growth,relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,Fig. 4,.
+11557,MEB135,Zooplankton,1,0,.,.,.,.,.,.,Leptocylindrus,1.1875,.,8,biomass,relative growth,relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,Fig. 4,.
+11558,MEB135,Zooplankton,2,1,.,.,.,.,.,.,Leptocylindrus,2.03125,.,8,biomass,relative growth,relative to control,0,1,1,1,.,.,4.5,0.3,4,.,.,Si,.,P N Si,microM,Fig. 4,.
+11559,MEB135,Zooplankton,1,0,.,.,.,.,.,.,Leptocylindrus,2.21875,.,8,biomass,relative growth,relative to control,0,1,1,1,.,.,4.5,0.3,4,.,.,Si,.,P N Si,microM,Fig. 4,.
+11560,MEB135,Zooplankton,2,1,.,.,.,.,.,.,Rhizosolenia,1,.,8,biomass,relative growth,relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,Fig. 4,.
+11561,MEB135,Zooplankton,1,0,.,.,.,.,.,.,Rhizosolenia,1.5076311,.,8,biomass,relative growth,relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,Fig. 4,.
+11562,MEB135,Zooplankton,2,1,.,.,.,.,.,.,Rhizosolenia,2.201478,.,8,biomass,relative growth,relative to control,0,1,1,1,.,.,4.5,0.3,4,.,.,Si,.,P N Si,microM,Fig. 4,.
+11563,MEB135,Zooplankton,1,0,.,.,.,.,.,.,Rhizosolenia,2.662602,.,8,biomass,relative growth,relative to control,0,1,1,1,.,.,4.5,0.3,4,.,.,Si,.,P N Si,microM,Fig. 4,.
+11564,MEB135,Zooplankton,2,1,.,.,.,.,.,.,Nitzschia,1,.,8,biomass,relative growth,relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,Fig. 4,.
+11565,MEB135,Zooplankton,1,0,.,.,.,.,.,.,Nitzschia,1.4997629,.,8,biomass,relative growth,relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,Fig. 4,.
+11566,MEB135,Zooplankton,2,1,.,.,.,.,.,.,Nitzschia,2.484027,.,8,biomass,relative growth,relative to control,0,1,1,1,.,.,4.5,0.3,4,.,.,Si,.,P N Si,microM,Fig. 4,.
+11567,MEB135,Zooplankton,1,0,.,.,.,.,.,.,Nitzschia,3.146001,.,8,biomass,relative growth,relative to control,0,1,1,1,.,.,4.5,0.3,4,.,.,Si,.,P N Si,microM,Fig. 4,.
+11568,MEB135,Zooplankton,2,1,.,.,.,.,.,.,Pseudonitzschia,1,.,8,biomass,relative growth,relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,Fig. 4,.
+11569,MEB135,Zooplankton,1,0,.,.,.,.,.,.,Pseudonitzschia,1.332316,.,8,biomass,relative growth,relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,Fig. 4,.
+11570,MEB135,Zooplankton,2,1,.,.,.,.,.,.,Pseudonitzschia,2.390967,.,8,biomass,relative growth,relative to control,0,1,1,1,.,.,4.5,0.3,4,.,.,Si,.,P N Si,microM,Fig. 4,.
+11571,MEB135,Zooplankton,1,0,.,.,.,.,.,.,Pseudonitzschia,2.582303,.,8,biomass,relative growth,relative to control,0,1,1,1,.,.,4.5,0.3,4,.,.,Si,.,P N Si,microM,Fig. 4,.
+11572,MEB135,Zooplankton,2,1,.,.,.,.,.,.,Navicula,1,.,8,biomass,relative growth,relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,Fig. 4,.
+11573,MEB135,Zooplankton,1,0,.,.,.,.,.,.,Navicula,1.670232,.,8,biomass,relative growth,relative to control,0,0,0,0,.,.,0,0,0,.,.,Si,.,.,microM,Fig. 4,.
+11574,MEB135,Zooplankton,2,1,.,.,.,.,.,.,Navicula,1.712594,.,8,biomass,relative growth,relative to control,0,1,1,1,.,.,4.5,0.3,4,.,.,Si,.,P N Si,microM,Fig. 4,.
+11575,MEB135,Zooplankton,1,0,.,.,.,.,.,.,Navicula,2.546149,.,8,biomass,relative growth,relative to control,0,1,1,1,.,.,4.5,0.3,4,.,.,Si,.,P N Si,microM,Fig. 4,.
+11576,BBH019,zooplankton,2,1,17,no/L,.,.,4,richness,phytoplankton,100,22.39720872,3,biomass,chlorophyll,% relative to control,.,0,0,0,0,0,.,.,.,.,.,.,.,.,.,Fig3,.
+11577,BBH019,zooplankton,2,1,68,no/L,.,.,4,richness,phytoplankton,112.5,14.93147248,3,biomass,chlorophyll,% relative to control,.,0,0,0,0,0,.,.,.,.,.,.,.,.,.,Fig3,.
+11578,BBH019,zooplankton,2,1,119,no/L,.,.,4,richness,phytoplankton,105,7.46573624,3,biomass,chlorophyll,% relative to control,.,0,0,0,0,0,.,.,.,.,.,.,.,.,.,Fig3,.
+11579,BBH019,zooplankton,2,1,17,no/L,.,.,4,richness,phytoplankton,175,14.93147248,3,biomass,chlorophyll,% relative to control,.,1,1,0,0,0,.,.,.,.,.,.,.,NH NO K P,.,Fig3,.
+11580,BBH019,zooplankton,2,1,68,no/L,.,.,4,richness,phytoplankton,160,7.615050964,3,biomass,chlorophyll,% relative to control,.,1,1,0,0,0,.,.,.,.,.,.,.,NH NO K P,.,Fig3,.
+11581,BBH019,zooplankton,2,1,119,no/L,.,.,4,richness,phytoplankton,125,7.615050964,3,biomass,chlorophyll,% relative to control,.,1,1,0,0,0,.,.,.,.,.,.,.,NH NO K P,.,Fig3,.
+11582,BBH021,zooplankton,2,1,9.5,no/L,.,.,4,richness,phytoplankton,100,31.35609221,3,biomass,chlorophyll,% relative to control,.,0,0,0,0,0,0,0,.,.,.,.,.,.,microM,Fig3,nutrient rates are additions
+11583,BBH021,zooplankton,2,1,19,no/L,.,.,4,richness,phytoplankton,105,49.27385918,3,biomass,chlorophyll,% relative to control,.,0,0,0,0,0,0,0,.,.,.,.,.,.,microM,Fig3,nutrient rates are additions
+11584,BBH021,zooplankton,2,1,57,no/L,.,.,4,richness,phytoplankton,125,52.26015368,3,biomass,chlorophyll,% relative to control,.,0,0,0,0,0,0,0,.,.,.,.,.,.,microM,Fig3,nutrient rates are additions
+11585,BBH021,zooplankton,2,1,9.5,no/L,.,.,4,richness,phytoplankton,185,7.46573624,3,biomass,chlorophyll,% relative to control,.,1,1,0,0,0,10,1.937358734,.,.,.,.,.,NH NO K P,microM,Fig3,nutrient rates are additions
+11586,BBH021,zooplankton,2,1,19,no/L,.,.,4,richness,phytoplankton,185,19.41091422,3,biomass,chlorophyll,% relative to control,.,1,1,0,0,0,10,1.937358734,.,.,.,.,.,NH NO K P,microM,Fig3,nutrient rates are additions
+11587,BBH021,zooplankton,2,1,57,no/L,.,.,4,richness,phytoplankton,105,14.93147248,3,biomass,chlorophyll,% relative to control,.,1,1,0,0,0,10,1.937358734,.,.,.,.,.,NH NO K P,microM,Fig3,nutrient rates are additions
+11588,BBH023,zooplankton,2,1,4.7,no/L,.,.,4,richness,phytoplankton,120,14.93147248,3,biomass,chlorophyll,% relative to control,.,0,0,0,0,0,0,0,.,.,.,.,.,.,microM,Fig3,nutrient rates are additions
+11589,BBH023,zooplankton,2,1,9.4,no/L,.,.,4,richness,phytoplankton,100,14.93147248,3,biomass,chlorophyll,% relative to control,.,0,0,0,0,0,0,0,.,.,.,.,.,.,microM,Fig3,nutrient rates are additions
+11590,BBH023,zooplankton,2,1,37.6,no/L,.,.,4,richness,phytoplankton,105,22.39720872,3,biomass,chlorophyll,% relative to control,.,0,0,0,0,0,0,0,.,.,.,.,.,.,microM,Fig3,nutrient rates are additions
+11591,BBH023,zooplankton,2,1,4.7,no/L,.,.,4,richness,phytoplankton,245,52.26015368,3,biomass,chlorophyll,% relative to control,.,1,1,0,0,0,10,1.937358734,.,.,.,.,.,NH NO K P,microM,Fig3,nutrient rates are additions
+11592,BBH023,zooplankton,2,1,9.4,no/L,.,.,4,richness,phytoplankton,230,14.93147248,3,biomass,chlorophyll,% relative to control,.,1,1,0,0,0,10,1.937358734,.,.,.,.,.,NH NO K P,microM,Fig3,nutrient rates are additions
+11593,BBH023,zooplankton,2,1,37.6,no/L,.,.,4,richness,phytoplankton,110,14.93147248,3,biomass,chlorophyll,% relative to control,.,1,1,0,0,0,10,1.937358734,.,.,.,.,.,NH NO K P,microM,Fig3,nutrient rates are additions
+11594,BBH025,zooplankton,2,1,21.1,no/L,.,.,4,richness,phytoplankton,100,14.93147248,3,biomass,chlorophyll,% relative to control,.,0,0,0,0,0,0,0,.,.,.,.,.,.,microM,Fig3,nutrient rates are additions
+11595,BBH025,zooplankton,2,1,105.5,no/L,.,.,4,richness,phytoplankton,130,17.91776697,3,biomass,chlorophyll,% relative to control,.,0,0,0,0,0,0,0,.,.,.,.,.,.,microM,Fig3,nutrient rates are additions
+11596,BBH025,zooplankton,2,1,316.5,no/L,.,.,4,richness,phytoplankton,130,14.93147248,3,biomass,chlorophyll,% relative to control,.,0,0,0,0,0,0,0,.,.,.,.,.,.,microM,Fig3,nutrient rates are additions
+11597,BBH025,zooplankton,2,1,21.1,no/L,.,.,4,richness,phytoplankton,162.5,7.46573624,3,biomass,chlorophyll,% relative to control,.,1,1,0,0,0,10,1.937358734,.,.,.,.,.,NH NO K P,microM,Fig3,nutrient rates are additions
+11598,BBH025,zooplankton,2,1,105.5,no/L,.,.,4,richness,phytoplankton,150,52.26015368,3,biomass,chlorophyll,% relative to control,.,1,1,0,0,0,10,1.937358734,.,.,.,.,.,NH NO K P,microM,Fig3,nutrient rates are additions
+11599,BBH025,zooplankton,2,1,316.5,no/L,.,.,4,richness,phytoplankton,137.5,37.3286812,3,biomass,chlorophyll,% relative to control,.,1,1,0,0,0,10,1.937358734,.,.,.,.,.,NH NO K P,microM,Fig3,nutrient rates are additions
