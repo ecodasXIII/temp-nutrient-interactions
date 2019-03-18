@@ -25,7 +25,7 @@ elser_manual_df = data.frame(author =author_list, citation = citation_list,
 rm(list = ls())
 
 elsie_study_df = read.csv(file ="./raw-data/Elser-et-al-2007_Global-N-P-limitation/data/raw-data/ELSIE_study_sheet.csv",T)
-elsie_study_df = elsie_study_df %>% select(c(ID_study, system, latitud, longitud, n_avail, n_total, p_avail, p_total, c_total, light, temp, duration, vol))
+elsie_study_df = elsie_study_df %>% select(c(author, pubyear, citation, habitat, study_typ, ID_study, system, latitud, longitud, n_avail, n_total, p_avail, p_total, c_total, light, temp, duration, vol))
 elsie_study_df = elsie_study_df %>% mutate_at(vars(latitud:vol), as.character) %>% mutate_at(vars(latitud:vol),str_replace_all,pattern = "\\.$", replacement = "NA")
 elsie_study_df[ elsie_study_df == "NA" ] <- NA
 elsie_study_df = elsie_study_df %>% filter(!is.na(temp))
