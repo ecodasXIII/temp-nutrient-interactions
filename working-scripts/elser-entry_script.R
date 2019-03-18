@@ -50,3 +50,9 @@ write.table(elsie_df, file = "./raw-data/Elser-et-al-2007_Global-N-P-limitation/
 
 
 #### End raw cleanup ###
+
+#quick look at  biomass and duration and temp ##
+
+ggplot(elsie_df, aes(x = log10(as.numeric(duration)), y = log(as.numeric(tax_resp_mn)), group = ID_study))+geom_point(aes(colour = ID_study),size = 2) + theme(legend.position = "none")
+
+ggplot(elsie_df, aes(x = as.numeric(temp), y = log(as.numeric(tax_resp_mn)), group = ID_study)) + geom_point(aes(colour = ID_study), size =2) + theme(legend.position = "none")
